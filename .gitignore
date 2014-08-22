@@ -11,3 +11,7 @@ wp-content/cache/
 wp-content/backups/
 sitemap.xml.gz
 wp-config.php
+composer.lock
+src/
+vendor/
+!src/wp-content/themes/olabi
