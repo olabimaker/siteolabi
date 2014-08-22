@@ -1,0 +1,33 @@
+/*
+Theme Name: Olabi
+Theme URI: http://olabi.co
+Author: Marco Antonio Konopacki e Lucas Pretti
+Author URI: http://
+Description: Tema do site do Olabi.co
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: maker innovation
+Text Domain: olabi
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* importação dos css básicos do tema pearl */
+@import url(css/fontawesome/font-awesome.min.css);
+@import url(css/iconfontcustom/icon-font-custom.css);
+@import url(css/base.css);
+@import url(css/grid.css);
+@import url(css/elements.css);
+@import url(css/layout.css);
+
+/* importação dos css de JS, ainda verificar necessidade */
+@import url(js/revolutionslider/css/settings.css);
+@import url(js/revolutionslider/css/custom.css);
+@import url(js/bxslider/jquery.bxslider.css);
+@import url(js/magnificpopup/magnific-popup.css);
+@import url(js/animations/animate.min.css);
+@import url(js/itplayer/css/YTPlayer.css);
+@import url(js/skillsdiagram/css/default.css);
+
