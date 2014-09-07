@@ -15,3 +15,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @import url('layout/css/grid.css');
 @import url('layout/css/elements.css');
 @import url('layout/css/layout.css');
+
+.logo-templo {
+    height: 30px;
+    width: 60px;
+}

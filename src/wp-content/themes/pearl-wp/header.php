@@ -62,8 +62,8 @@
                 </div><!-- end .span6 -->
 
 
-		<div class="ewf-span1">
-				<a href="http://templo.co" target="_blank"><img src="http://loading.olabi.co/wp-content/uploads/2014/07/logo-white-templo.png" width="30" style="padding:0;" /></a>
+		        <div class="ewf-span1 logo-templo">
+				    <a href="http://templo.co" target="_blank"><img src="http://loading.olabi.co/wp-content/uploads/2014/07/logo-white-templo.png"  /></a>
                 </div><!-- end .span1 -->
             </div><!-- end .row -->
             
