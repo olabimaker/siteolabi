@@ -20,3 +20,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     height: 30px;
     width: 60px;
 }
+
+.fb_iframe_widget {
+    float: right;
+}
