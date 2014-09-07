@@ -1,0 +1,17 @@
+/*
+Theme Name: Pearl WordPress
+Theme URI: http://themeforest.net/user/bitpub/portfolio
+Description: Pearl WordPress Template’s versatile design makes it truly multipurpose. Showcase your services, your portfolio or both. 
+Author: Bitpub
+Author URI: http://themeforest.net/user/bitpub
+Version: 1.0
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, full-width-template, theme-options, threaded-comments, translation-ready
+
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/ 
+
+@import url('layout/css/base.css');
+@import url('layout/css/grid.css');
+@import url('layout/css/elements.css');
+@import url('layout/css/layout.css');

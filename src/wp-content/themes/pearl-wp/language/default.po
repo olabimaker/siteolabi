@@ -1,0 +1,3474 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Creatika WordPress v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-07-02 23:22:15+0000\n"
+"Last-Translator: ngabyn <ngabyn@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:56
+#@ creatika-wp
+msgid "Error 404 - Page not found!"
+msgstr ""
+
+#: archive.php:17
+#: comments.php:78
+#@ creatika-wp
+msgid "Viewing posts categorised under"
+msgstr ""
+
+#: archive.php:25
+#@ creatika-wp
+msgid "Showing posts tagged with"
+msgstr ""
+
+#: archive.php:46
+#@ creatika-wp
+msgid "Viewing posts from"
+msgstr ""
+
+#: comments.php:16
+#@ creatika-wp
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:34
+#@ creatika-wp
+msgid "Comments"
+msgstr ""
+
+#: comments.php:46
+#@ creatika-wp
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:47
+#@ creatika-wp
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:48
+#@ creatika-wp
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:60
+#@ creatika-wp
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:73
+#: comments.php:80
+#@ creatika-wp
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:74
+#@ creatika-wp
+msgid "Your name"
+msgstr ""
+
+#: comments.php:75
+#@ creatika-wp
+msgid "Your Email Adress"
+msgstr ""
+
+#: comments.php:76
+#: comments.php:86
+#: framework/composer/components/vc_ewf_message_box.php:74
+#@ creatika-wp
+msgid "Message"
+msgstr ""
+
+#: comments.php:77
+#@ creatika-wp
+msgid "Send!"
+msgstr ""
+
+#: comments.php:92
+#, php-format
+#@ creatika-wp
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:98
+#, php-format
+#@ creatika-wp
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:105
+#@ creatika-wp
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:109
+#, php-format
+#@ creatika-wp
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr ""
+
+#: comments.php:119
+#@ creatika-wp
+msgid "Author"
+msgstr ""
+
+#: comments.php:125
+#@ creatika-wp
+msgid "E-mail address"
+msgstr ""
+
+#: comments.php:130
+#@ creatika-wp
+msgid "Website"
+msgstr ""
+
+#: comments.php:131
+#: framework/functions-menus.php:374
+#@ creatika-wp
+#@ default
+msgid "URL"
+msgstr ""
+
+#: comments.php:137
+#@ creatika-wp
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:138
+#, php-format
+#@ creatika-wp
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:139
+#@ creatika-wp
+msgid "Cancel Reply"
+msgstr ""
+
+#: framework/admin/admin-customizer.php:17
+#@ creatika-wp
+msgid "Header background"
+msgstr ""
+
+#: framework/admin/admin-customizer.php:24
+#@ creatika-wp
+msgid "Footer background"
+msgstr ""
+
+#: framework/admin/admin-customizer.php:30
+#@ creatika-wp
+msgid "Credits bar background"
+msgstr ""
+
+#: framework/admin/admin-options.php:75
+#@ creatika-wp
+msgid "Favicon"
+msgstr ""
+
+#: framework/admin/admin-options.php:76
+#: framework/admin/admin-options.php:84
+#@ creatika-wp
+msgid "Upload your favicon"
+msgstr ""
+
+#: framework/admin/admin-options.php:83
+#@ creatika-wp
+msgid "Favicon Retina"
+msgstr ""
+
+#: framework/admin/admin-options.php:92
+#@ creatika-wp
+msgid "Boxed in"
+msgstr ""
+
+#: framework/admin/admin-options.php:98
+#@ creatika-wp
+msgid "Full Width"
+msgstr ""
+
+#: framework/admin/admin-options.php:103
+#@ creatika-wp
+msgid "Layout style"
+msgstr ""
+
+#: framework/admin/admin-options.php:104
+#@ creatika-wp
+msgid "Select the layout"
+msgstr ""
+
+#: framework/admin/admin-options.php:111
+#@ creatika-wp
+msgid "Page not found"
+msgstr ""
+
+#: framework/admin/admin-options.php:112
+#@ creatika-wp
+msgid "Select the 404 page from your existing pages"
+msgstr ""
+
+#: framework/admin/admin-options.php:121
+#@ creatika-wp
+msgid "Content width"
+msgstr ""
+
+#: framework/admin/admin-options.php:122
+#@ creatika-wp
+msgid "Select the content width"
+msgstr ""
+
+#: framework/admin/admin-options.php:130
+#@ creatika-wp
+msgid "Background"
+msgstr ""
+
+#: framework/admin/admin-options.php:131
+#@ creatika-wp
+msgid "Adjust background settings"
+msgstr ""
+
+#: framework/admin/admin-options.php:146
+#@ creatika-wp
+msgid "Show back to top button"
+msgstr ""
+
+#: framework/admin/admin-options.php:147
+#@ creatika-wp
+msgid "You can show or hide the button"
+msgstr ""
+
+#: framework/admin/admin-options.php:153
+#@ creatika-wp
+msgid "Google Analytics"
+msgstr ""
+
+#: framework/admin/admin-options.php:154
+#@ creatika-wp
+msgid "Paste the analytics code"
+msgstr ""
+
+#: framework/admin/admin-options.php:160
+#@ creatika-wp
+msgid "Extra CSS Code"
+msgstr ""
+
+#: framework/admin/admin-options.php:161
+#@ creatika-wp
+msgid "Paste extra css code here"
+msgstr ""
+
+#: framework/admin/admin-options.php:174
+#@ creatika-wp
+msgid "Use custom typography"
+msgstr ""
+
+#: framework/admin/admin-options.php:175
+#@ creatika-wp
+msgid "You can overwrite custom fonts"
+msgstr ""
+
+#: framework/admin/admin-options.php:180
+#@ creatika-wp
+msgid "Global Font"
+msgstr ""
+
+#: framework/admin/admin-options.php:185
+#: framework/admin/admin-options.php:232
+#: framework/admin/admin-options.php:281
+#: framework/admin/admin-options.php:327
+#: framework/admin/admin-options.php:373
+#: framework/admin/admin-options.php:419
+#: framework/admin/admin-options.php:465
+#@ creatika-wp
+msgid "Font family"
+msgstr ""
+
+#: framework/admin/admin-options.php:186
+#: framework/admin/admin-options.php:233
+#: framework/admin/admin-options.php:282
+#: framework/admin/admin-options.php:328
+#: framework/admin/admin-options.php:374
+#: framework/admin/admin-options.php:420
+#: framework/admin/admin-options.php:466
+#@ creatika-wp
+msgid "Set the font of the body"
+msgstr ""
+
+#: framework/admin/admin-options.php:199
+#: framework/admin/admin-options.php:246
+#: framework/admin/admin-options.php:295
+#: framework/admin/admin-options.php:341
+#: framework/admin/admin-options.php:387
+#: framework/admin/admin-options.php:433
+#: framework/admin/admin-options.php:479
+#@ creatika-wp
+msgid "Font size"
+msgstr ""
+
+#: framework/admin/admin-options.php:200
+#: framework/admin/admin-options.php:247
+#: framework/admin/admin-options.php:296
+#: framework/admin/admin-options.php:342
+#: framework/admin/admin-options.php:388
+#: framework/admin/admin-options.php:434
+#: framework/admin/admin-options.php:480
+#@ creatika-wp
+msgid "Set fize of the font"
+msgstr ""
+
+#: framework/admin/admin-options.php:208
+#: framework/admin/admin-options.php:255
+#: framework/admin/admin-options.php:304
+#: framework/admin/admin-options.php:350
+#: framework/admin/admin-options.php:396
+#: framework/admin/admin-options.php:442
+#: framework/admin/admin-options.php:488
+#@ creatika-wp
+msgid "Line height"
+msgstr ""
+
+#: framework/admin/admin-options.php:209
+#: framework/admin/admin-options.php:256
+#: framework/admin/admin-options.php:305
+#: framework/admin/admin-options.php:351
+#: framework/admin/admin-options.php:397
+#: framework/admin/admin-options.php:443
+#: framework/admin/admin-options.php:489
+#@ creatika-wp
+msgid "Set the font line height"
+msgstr ""
+
+#: framework/admin/admin-options.php:217
+#: framework/admin/admin-options.php:264
+#: framework/admin/admin-options.php:313
+#: framework/admin/admin-options.php:359
+#: framework/admin/admin-options.php:405
+#: framework/admin/admin-options.php:451
+#: framework/admin/admin-options.php:497
+#@ creatika-wp
+msgid "Margin bottom"
+msgstr ""
+
+#: framework/admin/admin-options.php:218
+#: framework/admin/admin-options.php:265
+#: framework/admin/admin-options.php:314
+#: framework/admin/admin-options.php:360
+#: framework/admin/admin-options.php:406
+#: framework/admin/admin-options.php:452
+#: framework/admin/admin-options.php:498
+#@ creatika-wp
+msgid "Set the bottom spacing"
+msgstr ""
+
+#: framework/admin/admin-options.php:227
+#@ creatika-wp
+msgid "Font - Heading 1"
+msgstr ""
+
+#: framework/admin/admin-options.php:275
+#@ creatika-wp
+msgid "Font - Heading 2"
+msgstr ""
+
+#: framework/admin/admin-options.php:322
+#@ creatika-wp
+msgid "Font - Heading 3"
+msgstr ""
+
+#: framework/admin/admin-options.php:368
+#@ creatika-wp
+msgid "Font - Heading 4"
+msgstr ""
+
+#: framework/admin/admin-options.php:414
+#@ creatika-wp
+msgid "Font - Heading 5"
+msgstr ""
+
+#: framework/admin/admin-options.php:460
+#@ creatika-wp
+msgid "Font - Heading 6"
+msgstr ""
+
+#: framework/admin/admin-options.php:514
+#@ creatika-wp
+msgid "Header logo"
+msgstr ""
+
+#: framework/admin/admin-options.php:515
+#@ creatika-wp
+msgid "Upload logo in the header"
+msgstr ""
+
+#: framework/admin/admin-options.php:521
+#@ creatika-wp
+msgid "Sticky header"
+msgstr ""
+
+#: framework/admin/admin-options.php:522
+#@ creatika-wp
+msgid "Keep the header visible after scrolling"
+msgstr ""
+
+#: framework/admin/admin-options.php:527
+#@ creatika-wp
+msgid "Search"
+msgstr ""
+
+#: framework/admin/admin-options.php:528
+#@ creatika-wp
+msgid "Adds a search box on the right side of the menu"
+msgstr ""
+
+#: framework/admin/admin-options.php:541
+#@ creatika-wp
+msgid "Footer section"
+msgstr ""
+
+#: framework/admin/admin-options.php:542
+#@ creatika-wp
+msgid "Show footer section at the bottom"
+msgstr ""
+
+#: framework/admin/admin-options.php:549
+#: framework/admin/admin-options.php:564
+#@ creatika-wp
+msgid "Footer columns"
+msgstr ""
+
+#: framework/admin/admin-options.php:550
+#: framework/admin/admin-options.php:565
+#: framework/admin/admin-options.php:580
+#@ creatika-wp
+msgid "Select the number of columns"
+msgstr ""
+
+#: framework/admin/admin-options.php:556
+#@ creatika-wp
+msgid "Footer second section"
+msgstr ""
+
+#: framework/admin/admin-options.php:557
+#@ creatika-wp
+msgid "Add a second line of widget in the footer"
+msgstr ""
+
+#: framework/admin/admin-options.php:571
+#@ creatika-wp
+msgid "Footer sub"
+msgstr ""
+
+#: framework/admin/admin-options.php:572
+#@ creatika-wp
+msgid "Show sub footer section at the bottom"
+msgstr ""
+
+#: framework/admin/admin-options.php:579
+#@ creatika-wp
+msgid "Footer sub columns"
+msgstr ""
+
+#: framework/admin/admin-options.php:594
+#@ creatika-wp
+msgid "Use custom colors"
+msgstr ""
+
+#: framework/admin/admin-options.php:595
+#@ creatika-wp
+msgid "You can overwrite the default color scheme"
+msgstr ""
+
+#: framework/admin/admin-options.php:601
+#@ creatika-wp
+msgid "Accent color 1"
+msgstr ""
+
+#: framework/admin/admin-options.php:602
+#: framework/admin/admin-options.php:610
+#: framework/admin/admin-options.php:618
+#: framework/admin/admin-options.php:668
+#: framework/admin/admin-options.php:676
+#: framework/admin/admin-options.php:684
+#: framework/admin/admin-options.php:692
+#: framework/admin/admin-options.php:700
+#: framework/admin/admin-options.php:708
+#@ creatika-wp
+msgid "Specify the color you want to use."
+msgstr ""
+
+#: framework/admin/admin-options.php:609
+#@ creatika-wp
+msgid "Accent Color 2"
+msgstr ""
+
+#: framework/admin/admin-options.php:617
+#@ creatika-wp
+msgid "Header top background color"
+msgstr ""
+
+#: framework/admin/admin-options.php:667
+#@ creatika-wp
+msgid "Header top font color"
+msgstr ""
+
+#: framework/admin/admin-options.php:675
+#@ creatika-wp
+msgid "Content font color"
+msgstr ""
+
+#: framework/admin/admin-options.php:683
+#@ creatika-wp
+msgid "Footer background color"
+msgstr ""
+
+#: framework/admin/admin-options.php:691
+#@ creatika-wp
+msgid "Footer font color"
+msgstr ""
+
+#: framework/admin/admin-options.php:699
+#@ creatika-wp
+msgid "Footer bottom background color"
+msgstr ""
+
+#: framework/admin/admin-options.php:707
+#@ creatika-wp
+msgid "Footer bottom font color"
+msgstr ""
+
+#: framework/admin/admin-options.php:724
+#@ creatika-wp
+msgid "Facebook"
+msgstr ""
+
+#: framework/admin/admin-options.php:725
+#@ creatika-wp
+msgid "Specify the link to your Facebook account."
+msgstr ""
+
+#: framework/admin/admin-options.php:731
+#@ creatika-wp
+msgid "Twitter"
+msgstr ""
+
+#: framework/admin/admin-options.php:732
+#@ creatika-wp
+msgid "Specify the link to your Twitter account."
+msgstr ""
+
+#: framework/admin/admin-options.php:738
+#@ creatika-wp
+msgid "Google Plus"
+msgstr ""
+
+#: framework/admin/admin-options.php:739
+#@ creatika-wp
+msgid "Specify the link to your Goolge Plus account."
+msgstr ""
+
+#: framework/admin/admin-options.php:745
+#@ creatika-wp
+msgid "Pinterest"
+msgstr ""
+
+#: framework/admin/admin-options.php:746
+#@ creatika-wp
+msgid "Specify the link to your Pinterest account."
+msgstr ""
+
+#: framework/admin/admin-options.php:752
+#@ creatika-wp
+msgid "Instagram"
+msgstr ""
+
+#: framework/admin/admin-options.php:753
+#@ creatika-wp
+msgid "Specify the link to your Instagram account."
+msgstr ""
+
+#: framework/admin/admin-options.php:759
+#@ creatika-wp
+msgid "Tumblr"
+msgstr ""
+
+#: framework/admin/admin-options.php:760
+#@ creatika-wp
+msgid "Specify the link to your Tumblr account."
+msgstr ""
+
+#: framework/admin/admin-options.php:766
+#@ creatika-wp
+msgid "YouTube"
+msgstr ""
+
+#: framework/admin/admin-options.php:767
+#@ creatika-wp
+msgid "Specify the link to your YouTube account."
+msgstr ""
+
+#: framework/admin/admin-options.php:773
+#@ creatika-wp
+msgid "Flickr"
+msgstr ""
+
+#: framework/admin/admin-options.php:774
+#@ creatika-wp
+msgid "Specify the link to your Flickr account."
+msgstr ""
+
+#: framework/admin/admin-options.php:780
+#@ creatika-wp
+msgid "LinkedIn"
+msgstr ""
+
+#: framework/admin/admin-options.php:781
+#@ creatika-wp
+msgid "Specify the link to your LinkedIn account."
+msgstr ""
+
+#: framework/admin/admin-options.php:964
+#: framework/modules/ewf-header/ewf-modHeader.php:618
+#@ creatika-wp
+msgid "Background color"
+msgstr ""
+
+#: framework/admin/admin-options.php:973
+#@ creatika-wp
+msgid "Background image"
+msgstr ""
+
+#: framework/admin/admin-options.php:995
+#@ creatika-wp
+msgid "Upload image"
+msgstr ""
+
+#: framework/admin/admin-options.php:996
+#@ creatika-wp
+msgid "Remove image"
+msgstr ""
+
+#: framework/admin/admin-options.php:997
+#@ creatika-wp
+msgid "Choose pattern"
+msgstr ""
+
+#: framework/admin/admin-options.php:998
+#: framework/functions-menus.php:504
+#: framework/modules/ewf-layout/ewf-modLayout.php:465
+#: framework/modules/ewf-layout/ewf-modLayout.php:480
+#: framework/modules/ewf-layout/ewf-modLayout.php:494
+#@ creatika-wp
+#@ default
+msgid "Cancel"
+msgstr ""
+
+#: framework/admin/admin-options.php:1014
+#@ creatika-wp
+msgid "Background repeat"
+msgstr ""
+
+#: framework/admin/admin-options.php:1021
+#@ creatika-wp
+msgid "Repeat Horizontal"
+msgstr ""
+
+#: framework/admin/admin-options.php:1022
+#@ creatika-wp
+msgid "Repeat Vertical"
+msgstr ""
+
+#: framework/admin/admin-options.php:1023
+#@ creatika-wp
+msgid "No Repeat"
+msgstr ""
+
+#: framework/admin/admin-options.php:1036
+#@ creatika-wp
+msgid "Background position"
+msgstr ""
+
+#: framework/admin/admin-options.php:1042
+#@ creatika-wp
+msgid "Align Right Top"
+msgstr ""
+
+#: framework/admin/admin-options.php:1043
+#@ creatika-wp
+msgid "Align Center Top"
+msgstr ""
+
+#: framework/admin/admin-options.php:1044
+#@ creatika-wp
+msgid "Align Left Top"
+msgstr ""
+
+#: framework/admin/admin-options.php:1045
+#@ creatika-wp
+msgid "Align Right Center"
+msgstr ""
+
+#: framework/admin/admin-options.php:1046
+#@ creatika-wp
+msgid "Align Center Center"
+msgstr ""
+
+#: framework/admin/admin-options.php:1047
+#@ creatika-wp
+msgid "Align Left Center"
+msgstr ""
+
+#: framework/admin/admin-options.php:1048
+#@ creatika-wp
+msgid "Align Right Bottom"
+msgstr ""
+
+#: framework/admin/admin-options.php:1049
+#@ creatika-wp
+msgid "Align Center Bottom"
+msgstr ""
+
+#: framework/admin/admin-options.php:1050
+#@ creatika-wp
+msgid "Align Left Bottom"
+msgstr ""
+
+#: framework/admin/admin-options.php:1063
+#@ creatika-wp
+msgid "Background attachment"
+msgstr ""
+
+#: framework/admin/admin-options.php:1070
+#@ creatika-wp
+msgid "Background Fixed"
+msgstr ""
+
+#: framework/admin/admin-options.php:1071
+#@ creatika-wp
+msgid "Background Scroll"
+msgstr ""
+
+#: framework/admin/admin-options.php:1085
+#@ creatika-wp
+msgid "Background stretch & fit"
+msgstr ""
+
+#: framework/admin/admin-options.php:1138
+#@ creatika-wp
+msgid "Change Image"
+msgstr ""
+
+#: framework/admin/admin-options.php:1173
+#@ creatika-wp
+msgid "Columns"
+msgstr ""
+
+#: framework/admin/admin-options.php:1174
+#@ creatika-wp
+msgid "Edit Size"
+msgstr ""
+
+#: framework/admin/admin-options.php:1181
+#: framework/modules/ewf-layout/ewf-modLayout.php:306
+#@ creatika-wp
+msgid "Layout"
+msgstr ""
+
+#: framework/admin/admin-options.php:1195
+#@ creatika-wp
+msgid "Press the plus button to increase column size"
+msgstr ""
+
+#: framework/admin/admin-options.php:1338
+#@ creatika-wp
+msgid "Title Sample"
+msgstr ""
+
+#: framework/admin/admin-options.php:1339
+#@ creatika-wp
+msgid "paragraph sample here"
+msgstr ""
+
+#: framework/admin/admin-options.php:1585
+#@ creatika-wp
+msgid "Theme Options"
+msgstr ""
+
+#: framework/admin/admin-options.php:1639
+#: framework/modules/ewf-layout/ewf-modLayout.php:496
+#@ creatika-wp
+msgid "Save changes"
+msgstr ""
+
+#: framework/admin/admin-options.php:1642
+#@ creatika-wp
+msgid "Restore Defaults"
+msgstr ""
+
+#: framework/admin/admin-options.php:1651
+#@ creatika-wp
+msgid "The settings have been successfully saved!"
+msgstr ""
+
+#: framework/admin/admin-options.php:1655
+#@ creatika-wp
+msgid "Default settings have been restored!"
+msgstr ""
+
+#: framework/admin/admin-options.php:1659
+#@ creatika-wp
+msgid "The theme settings have been restored to default, install triggered!"
+msgstr ""
+
+#: framework/admin/admin-options.php:1674
+#@ creatika-wp
+msgid "General"
+msgstr ""
+
+#: framework/admin/admin-options.php:1675
+#: framework/composer/components/__vc_ewf_our_process.php:38
+#: framework/composer/components/vc_ewf_button.php:86
+#: framework/composer/components/vc_ewf_divider.php:28
+#: framework/composer/components/vc_ewf_headline.php:72
+#: framework/composer/components/vc_ewf_iconbox.php:161
+#: framework/composer/components/vc_ewf_logo.php:46
+#: framework/composer/components/vc_ewf_map.php:27
+#: framework/composer/components/vc_ewf_message_box.php:59
+#: framework/composer/components/vc_ewf_milestone.php:34
+#: framework/composer/components/vc_ewf_piechart.php:39
+#: framework/composer/components/vc_ewf_progress.php:39
+#: framework/composer/components/vc_ewf_social.php:145
+#: framework/composer/components/vc_ewf_team_member.php:115
+#: framework/composer/components/vc_ewf_testimonial.php:52
+#: framework/composer/components/vc_ewf_testimonial_adv.php:53
+#@ creatika-wp
+msgid "Typography"
+msgstr ""
+
+#: framework/admin/admin-options.php:1676
+#@ creatika-wp
+msgid "Colors"
+msgstr ""
+
+#: framework/admin/admin-options.php:1677
+#: framework/modules/ewf-header/ewf-modHeader.php:443
+#@ creatika-wp
+msgid "Header"
+msgstr ""
+
+#: framework/admin/admin-options.php:1678
+#@ creatika-wp
+msgid "Footer"
+msgstr ""
+
+#: framework/admin/admin-options.php:1755
+#@ creatika-wp
+msgid "Select page"
+msgstr ""
+
+#: framework/admin/admin-options.php:1768
+#@ creatika-wp
+msgid "No title"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:17
+#: framework/composer/components/__vc_ewf_blog_posts.php:174
+#: templates/blog-columns-full.php:102
+#: templates/blog-item-default.php:109
+#: templates/blog-item-timeline.php:86
+#@ creatika-wp
+msgid "read more"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:18
+#@ creatika-wp
+msgid "Read our latest posts"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:83
+#: templates/blog-columns-full.php:75
+#: templates/blog-item-default.php:73
+#@ creatika-wp
+msgid "by"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:143
+#@ creatika-wp
+msgid "Blog Posts"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:147
+#@ creatika-wp
+msgid "Show 2 blog posts from a specified category"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:148
+#: framework/composer/components/vc_ewf_iconbox.php:204
+#: framework/composer/components/vc_ewf_pricing.php:60
+#@ creatika-wp
+msgid "Content"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:172
+#@ creatika-wp
+msgid "Read more title"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:175
+#@ creatika-wp
+msgid "Read more title from blog article"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:181
+#@ creatika-wp
+msgid "Button title"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:183
+#@ creatika-wp
+msgid "read our latest posts"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:184
+#: framework/composer/components/__vc_ewf_blog_posts.php:193
+#@ creatika-wp
+msgid "Read more title from the button"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:190
+#@ creatika-wp
+msgid "Button link"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:7
+#: framework/composer/components/__vc_ewf_process_horizontal.php:13
+#: framework/composer/components/vc_ewf_button.php:7
+#: framework/composer/components/vc_ewf_headline.php:7
+#: framework/composer/components/vc_ewf_headline.php:80
+#: framework/composer/components/vc_ewf_process_vertical.php:13
+#: framework/widgets/widget-call-to-action.php:63
+#@ creatika-wp
+msgid "Sample title"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:9
+#: framework/composer/components/__vc_ewf_our_process.php:64
+#@ creatika-wp
+msgid "Number first"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:33
+#@ creatika-wp
+msgid "Single Process"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:37
+#@ creatika-wp
+msgid "Add a process title with number and details"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:44
+#: framework/composer/components/__vc_ewf_process_horizontal.php:86
+#: framework/composer/components/__vc_ewf_process_horizontal.php:88
+#: framework/composer/components/vc_ewf_headline.php:78
+#: framework/composer/components/vc_ewf_iconbox.php:8
+#: framework/composer/components/vc_ewf_iconbox.php:169
+#: framework/composer/components/vc_ewf_iconbox.php:171
+#: framework/composer/components/vc_ewf_milestone.php:8
+#: framework/composer/components/vc_ewf_milestone.php:40
+#: framework/composer/components/vc_ewf_milestone.php:42
+#: framework/composer/components/vc_ewf_piechart.php:47
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:305
+#: framework/composer/components/vc_ewf_process_vertical.php:84
+#: framework/composer/components/vc_ewf_process_vertical.php:86
+#: framework/composer/components/vc_ewf_progress.php:45
+#: framework/composer/components/vc_ewf_progress.php:47
+#: framework/modules/ewf-header/ewf-modHeader.php:769
+#@ creatika-wp
+msgid "Title"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:46
+#@ creatika-wp
+msgid "Process title"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:47
+#@ creatika-wp
+msgid "Specify the title that will fit in the hexagon."
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:53
+#: framework/composer/components/vc_ewf_milestone.php:49
+#@ creatika-wp
+msgid "Number"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:56
+#@ creatika-wp
+msgid "Specify the number positioned in front or after the hexagon."
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:62
+#@ creatika-wp
+msgid "Position"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:64
+#@ creatika-wp
+msgid "Title first"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:65
+#@ creatika-wp
+msgid "Specify the arrangement of number and hexagon"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:71
+#@ creatika-wp
+msgid "Process description"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:73
+#: framework/composer/components/vc_ewf_iconbox.php:206
+#: framework/composer/components/vc_ewf_team_member.php:223
+#@ creatika-wp
+msgid "I am test text block. Click edit button to change this text."
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_process_horizontal.php:45
+#@ creatika-wp
+msgid "Process Horizontal"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_process_horizontal.php:50
+#@ creatika-wp
+msgid "Create a horizontal list with items"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_process_horizontal.php:56
+#: framework/composer/components/vc_ewf_iconbox.php:257
+#: framework/composer/components/vc_ewf_process_vertical.php:52
+#: framework/composer/components/vc_ewf_slider_testimonials.php:27
+#@ creatika-wp
+msgid "Extra class name"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_process_horizontal.php:58
+#: framework/composer/components/vc_ewf_iconbox.php:259
+#: framework/composer/components/vc_ewf_process_vertical.php:54
+#: framework/composer/components/vc_ewf_slider_testimonials.php:29
+#@ creatika-wp
+msgid "If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_process_horizontal.php:65
+#: framework/composer/components/vc_ewf_process_vertical.php:63
+#@ creatika-wp
+msgid "Process Item"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_process_horizontal.php:77
+#: framework/composer/components/vc_ewf_button.php:102
+#: framework/composer/components/vc_ewf_headline.php:109
+#: framework/composer/components/vc_ewf_iconbox.php:178
+#: framework/composer/components/vc_ewf_pricing.php:75
+#: framework/composer/components/vc_ewf_process_vertical.php:75
+#@ creatika-wp
+msgid "Select Icon"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_process_horizontal.php:80
+#: framework/composer/components/vc_ewf_process_vertical.php:78
+#@ creatika-wp
+msgid "Select the icon you want to have on the left side of the section"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_process_horizontal.php:89
+#: framework/composer/components/vc_ewf_process_vertical.php:87
+#: framework/composer/components/vc_ewf_progress.php:48
+#@ creatika-wp
+msgid "The title of the progress bar"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_process_horizontal.php:95
+#@ creatika-wp
+msgid "Color"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_process_horizontal.php:98
+#@ creatika-wp
+msgid "The color of the title"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:81
+#@ creatika-wp
+msgid "Button"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:85
+#@ creatika-wp
+msgid "Customizable button with text and icon"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:93
+#@ creatika-wp
+msgid "Link title & URL"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:96
+#@ creatika-wp
+msgid "Specify the link pointing to another page"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:105
+#@ creatika-wp
+msgid "Select the icon you want"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:136
+#@ creatika-wp
+msgid "Icon position"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:139
+#: framework/composer/components/vc_ewf_iconbox.php:224
+#@ creatika-wp
+msgid "Left"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:140
+#: framework/composer/components/vc_ewf_iconbox.php:224
+#@ creatika-wp
+msgid "Right"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:142
+#@ creatika-wp
+msgid "Specify the position of the icon"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:148
+#@ creatika-wp
+msgid "Button Border Color"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:151
+#@ creatika-wp
+msgid "Select the border color"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:111
+#@ creatika-wp
+msgid "Button Color"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:114
+#: framework/composer/components/vc_ewf_message_box.php:27
+#@ creatika-wp
+msgid "Default"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:115
+#@ creatika-wp
+msgid "Black"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:116
+#@ creatika-wp
+msgid "Custom color"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:118
+#: framework/composer/components/vc_ewf_button.php:130
+#@ creatika-wp
+msgid "Specify the type size of the button"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:157
+#@ creatika-wp
+msgid "Button Background Color"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:160
+#@ creatika-wp
+msgid "Select the color of the text on button"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:167
+#@ creatika-wp
+msgid "Button Text Color"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:170
+#@ creatika-wp
+msgid "Select the color of the button"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:124
+#@ creatika-wp
+msgid "Button Size"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:127
+#@ creatika-wp
+msgid "Small"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:128
+#@ creatika-wp
+msgid "Large"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:23
+#@ creatika-wp
+msgid "Divider"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:27
+#@ creatika-wp
+msgid "Use it to divide content"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:35
+#@ creatika-wp
+msgid "Dividing Height"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:38
+#@ creatika-wp
+msgid "Specify the height this block should have"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:45
+#@ creatika-wp
+msgid "Divider Style"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:48
+#@ creatika-wp
+msgid "Single line"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:49
+#@ creatika-wp
+msgid "Double line"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:50
+#@ creatika-wp
+msgid "Dotted line"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:51
+#@ creatika-wp
+msgid "Double dotted line"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:53
+#@ creatika-wp
+msgid "Specify the type of the line"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_headline.php:67
+#@ creatika-wp
+msgid "Headline"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_headline.php:81
+#@ creatika-wp
+msgid "Specify the text of the headline"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_headline.php:87
+#: framework/composer/components/vc_ewf_process_vertical.php:93
+#@ creatika-wp
+msgid "Details"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_headline.php:89
+#@ creatika-wp
+msgid "Sample details field from here"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_headline.php:90
+#@ creatika-wp
+msgid "Specify the detaild text of the headline"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_headline.php:96
+#@ creatika-wp
+msgid "Headline Style"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:158
+#@ creatika-wp
+msgid "Icon Box"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:163
+#@ creatika-wp
+msgid "Add an icon box, with icon and description"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:172
+#@ creatika-wp
+msgid "The service title"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:181
+#@ creatika-wp
+msgid "Select the icon you want to have at the top of the section"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:187
+#@ creatika-wp
+msgid "Iconbox Style"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:207
+#@ creatika-wp
+msgid "Add description text for the service"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:213
+#@ creatika-wp
+msgid "Read more link"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:216
+#@ creatika-wp
+msgid "Specify an optional link to another page"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:222
+#@ creatika-wp
+msgid "Read more link placement"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:224
+#@ creatika-wp
+msgid "Center"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:225
+#@ creatika-wp
+msgid "How the read more link should be aligned inside of iconbox"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:246
+#@ creatika-wp
+msgid "Iconbox Slider"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:251
+#@ creatika-wp
+msgid "Create a slider with iconbox components"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_logo.php:43
+#@ creatika-wp
+msgid "Client logo"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_logo.php:54
+#: framework/composer/components/vc_ewf_team_member.php:123
+#: framework/composer/components/vc_ewf_testimonial.php:58
+#: framework/composer/components/vc_ewf_testimonial_adv.php:57
+#@ creatika-wp
+msgid "Image"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_logo.php:56
+#@ creatika-wp
+msgid "Add the logo image"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_logo.php:62
+#@ creatika-wp
+msgid "Link"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_logo.php:65
+#@ creatika-wp
+msgid "Specify an optional link pointing to an URL"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_map.php:8
+#: framework/composer/components/vc_ewf_map.php:22
+#@ creatika-wp
+msgid "Google Map"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_map.php:25
+#@ creatika-wp
+msgid "Add Google Map section"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_map.php:33
+#@ creatika-wp
+msgid "Address"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_map.php:36
+#@ creatika-wp
+msgid "The address where the map is centered"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_map.php:42
+#@ creatika-wp
+msgid "Pinpoint caption"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_map.php:44
+#@ creatika-wp
+msgid "Sample caption here"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_map.php:45
+#@ creatika-wp
+msgid "Specify text that will appear when you click on the pin"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_map.php:51
+#: framework/functions-type-project.php:262
+#@ creatika-wp
+msgid "Zoom"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_map.php:54
+#@ creatika-wp
+msgid "Specify a zoom value between 5 and 20"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_message_box.php:7
+#@ creatika-wp
+msgid "Info"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_message_box.php:12
+#@ creatika-wp
+msgid "Success"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_message_box.php:17
+#@ creatika-wp
+msgid "Warning"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_message_box.php:22
+#@ creatika-wp
+msgid "Error"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_message_box.php:54
+#@ creatika-wp
+msgid "Message box"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_message_box.php:58
+#@ creatika-wp
+msgid "Use to display notices, warnings, alerts"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_message_box.php:65
+#@ creatika-wp
+msgid "Message type"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_message_box.php:68
+#@ creatika-wp
+msgid "Specify"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_message_box.php:77
+#@ creatika-wp
+msgid "Specify the content of the message"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_milestone.php:29
+#@ creatika-wp
+msgid "Milestone"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_milestone.php:33
+#@ creatika-wp
+msgid "Animated count from 0 to specified number"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_milestone.php:43
+#@ creatika-wp
+msgid "The milestone title"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_milestone.php:52
+#@ creatika-wp
+msgid "The final value will animate to, from 0 to the number provided by you"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_milestone.php:58
+#@ creatika-wp
+msgid "Speed"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_milestone.php:61
+#@ creatika-wp
+msgid "Specify the animation speed"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:8
+#: framework/composer/components/vc_ewf_progress.php:8
+#@ creatika-wp
+msgid "Sample progress bar"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:34
+#@ creatika-wp
+msgid "Pie Chart"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:45
+#: framework/composer/components/vc_ewf_testimonial.php:75
+#: framework/composer/components/vc_ewf_testimonial.php:77
+#: framework/composer/components/vc_ewf_testimonial_adv.php:74
+#: framework/composer/components/vc_ewf_testimonial_adv.php:76
+#: framework/functions-menus.php:411
+#: framework/modules/ewf-header/ewf-modHeader.php:852
+#@ creatika-wp
+#@ default
+msgid "Description"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:48
+#@ creatika-wp
+msgid "A description of what the chart represents"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:54
+#: framework/composer/components/vc_ewf_progress.php:54
+#@ creatika-wp
+msgid "Value"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:57
+#: framework/composer/components/vc_ewf_progress.php:57
+#@ creatika-wp
+msgid "Specify a value between 1 and 100, it represents the loaded percentage"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:63
+#@ creatika-wp
+msgid "Width"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:66
+#@ creatika-wp
+msgid "Represents the width of the piechart measured in pixels"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:72
+#@ creatika-wp
+msgid "Line width"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:75
+#@ creatika-wp
+msgid "Represents the thickness of the piechart"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:81
+#@ creatika-wp
+msgid "Piechart Color"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:84
+#: framework/composer/components/vc_ewf_progress.php:66
+#@ creatika-wp
+msgid "Select the color of the bar"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:90
+#@ creatika-wp
+msgid "Track Color"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:93
+#@ creatika-wp
+msgid "Select the color of the track"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:300
+#@ creatika-wp
+msgid "Portfolio Grid"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:304
+#: framework/composer/components/vc_ewf_portfolio_strip.php:246
+#@ creatika-wp
+msgid "Add a full width row with porftolio items"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:305
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:33
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:59
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:299
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:307
+#: framework/composer/components/vc_ewf_portfolio_list.php:331
+#: framework/composer/components/vc_ewf_portfolio_strip.php:247
+#@ creatika-wp
+msgid "Portfolio"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:311
+#: framework/composer/components/vc_ewf_portfolio_list.php:350
+#@ creatika-wp
+msgid "Number of portfolio items"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:314
+#: framework/composer/components/vc_ewf_portfolio_list.php:354
+#@ creatika-wp
+msgid "Select the number of items you want to load"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:320
+#@ creatika-wp
+msgid "Prortfolio grid layout"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:323
+#@ creatika-wp
+msgid "3 Columns"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:324
+#@ creatika-wp
+msgid "4 Columns"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:332
+#: framework/composer/components/vc_ewf_portfolio_list.php:337
+#@ creatika-wp
+msgid "How should the portfolio items to load, be chosen"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:334
+#: framework/composer/components/vc_ewf_portfolio_strip.php:258
+#: framework/composer/components/vc_ewf_portfolio_strip.php:280
+#@ creatika-wp
+msgid "Random"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:334
+#: framework/composer/components/vc_ewf_portfolio_list.php:342
+#: framework/composer/components/vc_ewf_portfolio_strip.php:257
+#@ creatika-wp
+msgid "From a service"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:334
+#: framework/composer/components/vc_ewf_portfolio_list.php:340
+#: framework/composer/components/vc_ewf_portfolio_strip.php:256
+#@ creatika-wp
+msgid "Latest projects"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:340
+#: framework/composer/components/vc_ewf_portfolio_list.php:360
+#: framework/composer/components/vc_ewf_portfolio_strip.php:265
+#@ creatika-wp
+msgid "Service"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:343
+#: framework/composer/components/vc_ewf_portfolio_list.php:363
+#: framework/composer/components/vc_ewf_portfolio_strip.php:268
+#@ creatika-wp
+msgid "Specify projects from a defined category"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:350
+#: framework/composer/components/vc_ewf_portfolio_list.php:370
+#: framework/composer/components/vc_ewf_portfolio_strip.php:275
+#@ creatika-wp
+msgid "Projects order"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:354
+#: framework/composer/components/vc_ewf_portfolio_list.php:374
+#@ creatika-wp
+msgid "Load projects in a Ascendent(1,2,3) or Descendent (3,2,1) order"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:294
+#@ creatika-wp
+msgid "Portfolio Isotope Grid"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:298
+#@ creatika-wp
+msgid "Portfolio Isotope"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:308
+#@ creatika-wp
+msgid "The title of the section that will be added at the left side of the filters."
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:314
+#@ creatika-wp
+msgid "Load items"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:326
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:335
+#@ creatika-wp
+msgid "The number of items visible initially."
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:341
+#@ creatika-wp
+msgid "Portfolio Style"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:352
+#@ creatika-wp
+msgid "Display options"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:355
+#@ creatika-wp
+msgid "Title & Filters"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:356
+#@ creatika-wp
+msgid "Title only, no filters"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:357
+#@ creatika-wp
+msgid "Title only center, no filters"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:358
+#@ creatika-wp
+msgid "Only filters on left"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:359
+#@ creatika-wp
+msgid "Only filters on center"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:360
+#@ creatika-wp
+msgid "Don't show title and filters"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:379
+#@ creatika-wp
+msgid "Load More Items"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:382
+#@ creatika-wp
+msgid "Number of items to add when you press the 'Load More' button."
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_list.php:173
+#@ creatika-wp
+msgid "See More"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_list.php:326
+#@ creatika-wp
+msgid "Portfolio List"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_list.php:330
+#@ creatika-wp
+msgid "Add a classic list with porftolio items"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_list.php:341
+#@ creatika-wp
+msgid "Load a single project"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_list.php:343
+#@ creatika-wp
+msgid "Random order"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_list.php:380
+#@ creatika-wp
+msgid "Choose a portfolio item from the list below"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_strip.php:242
+#@ creatika-wp
+msgid "Portfolio Strip"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_strip.php:253
+#@ creatika-wp
+msgid "Load 5 portfolio items"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_strip.php:278
+#@ creatika-wp
+msgid "Descendent"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_strip.php:279
+#@ creatika-wp
+msgid "Ascendent"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_strip.php:283
+#@ creatika-wp
+msgid "Load projects in a Ascendent(1,2,3), Descendent (3,2,1) order or random."
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_strip.php:289
+#@ creatika-wp
+msgid "Secondary info"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_strip.php:292
+#@ creatika-wp
+msgid "Project Excerpt"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_strip.php:293
+#@ creatika-wp
+msgid "Project Services"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:371
+#: framework/composer/components/vc_ewf_portfolio_strip.php:294
+#@ creatika-wp
+msgid "Don't show"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_strip.php:296
+#@ creatika-wp
+msgid "Specify what to show below the project title"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:9
+#: framework/composer/components/vc_ewf_pricing.php:68
+#@ creatika-wp
+msgid "Starter edition"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:13
+#: framework/composer/components/vc_ewf_pricing.php:95
+#@ creatika-wp
+msgid "per year"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:55
+#@ creatika-wp
+msgid "Pricing Table"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:66
+#@ creatika-wp
+msgid "Plan name"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:78
+#@ creatika-wp
+msgid "Select the icon you want to have asside plan name"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:84
+#@ creatika-wp
+msgid "Cost"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:93
+#@ creatika-wp
+msgid "Period"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:102
+#@ creatika-wp
+msgid "Plan features (add one per line)"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:111
+#@ creatika-wp
+msgid "Read more button"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:114
+#@ creatika-wp
+msgid "Specify an optional link pointing to a details page"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_process_vertical.php:41
+#@ creatika-wp
+msgid "Process Vertical"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_process_vertical.php:46
+#@ creatika-wp
+msgid "Create a vertical list with items"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_process_vertical.php:96
+#@ creatika-wp
+msgid "The content of progress"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_progress.php:34
+#@ creatika-wp
+msgid "Progress Bar"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_progress.php:63
+#@ creatika-wp
+msgid "Bar Color"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_slider_testimonials.php:16
+#@ creatika-wp
+msgid "Slider Testimonials"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_slider_testimonials.php:21
+#@ creatika-wp
+msgid "Create a slider with testimonials"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_social.php:142
+#@ creatika-wp
+msgid "Social Icons"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_social.php:156
+#: framework/composer/components/vc_ewf_team_member.php:161
+#@ creatika-wp
+msgid "Add an optional link to Facebook profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_social.php:165
+#: framework/composer/components/vc_ewf_team_member.php:170
+#@ creatika-wp
+msgid "Add an optional link to Twitter profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_social.php:174
+#: framework/composer/components/vc_ewf_team_member.php:197
+#@ creatika-wp
+msgid "Add an optional link to Dribbble profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_social.php:183
+#: framework/composer/components/vc_ewf_team_member.php:179
+#@ creatika-wp
+msgid "Add an optional link to Pinterest profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_social.php:192
+#: framework/composer/components/vc_ewf_team_member.php:152
+#@ creatika-wp
+msgid "Add an optional link to Google Plus profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_social.php:201
+#: framework/composer/components/vc_ewf_team_member.php:206
+#@ creatika-wp
+msgid "Add an optional link to Tumblr profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_social.php:210
+#: framework/composer/components/vc_ewf_team_member.php:215
+#@ creatika-wp
+msgid "Add an optional link to Instagram profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_social.php:219
+#@ creatika-wp
+msgid "Add an optional link to a RSS feed, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_social.php:228
+#@ creatika-wp
+msgid "Add an optional link to LinkedIn profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_social.php:237
+#@ creatika-wp
+msgid "Add an optional link to Skype profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_social.php:246
+#@ creatika-wp
+msgid "Add an optional link to Xing profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_social.php:255
+#@ creatika-wp
+msgid "Add an optional link to Dropbox profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_social.php:264
+#@ creatika-wp
+msgid "Add an optional link to Windows profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_social.php:273
+#: framework/composer/components/vc_ewf_team_member.php:188
+#@ creatika-wp
+msgid "Add an optional link to YouTube profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_social.php:282
+#@ creatika-wp
+msgid "Add an optional link to Flickr profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_social.php:291
+#@ creatika-wp
+msgid "Add an optional link to Vimeo profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_social.php:300
+#@ creatika-wp
+msgid "Add an optional link to Github profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:9
+#@ creatika-wp
+msgid "Sample job title"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:112
+#@ creatika-wp
+msgid "Team Member"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:117
+#@ creatika-wp
+msgid "Name, image and description"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:125
+#@ creatika-wp
+msgid "Add the image of the team member"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:131
+#: framework/composer/components/vc_ewf_testimonial.php:66
+#: framework/composer/components/vc_ewf_testimonial_adv.php:65
+#@ creatika-wp
+msgid "Name"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:133
+#: framework/composer/components/vc_ewf_testimonial.php:10
+#: framework/composer/components/vc_ewf_testimonial.php:68
+#: framework/composer/components/vc_ewf_testimonial_adv.php:10
+#: framework/composer/components/vc_ewf_testimonial_adv.php:67
+#@ creatika-wp
+msgid "Sample Name"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:134
+#@ creatika-wp
+msgid "Specify the name of the member"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:140
+#: framework/composer/components/vc_ewf_team_member.php:142
+#@ creatika-wp
+msgid "Job Title"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:221
+#@ creatika-wp
+msgid "Member details"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:224
+#@ creatika-wp
+msgid "Add details about the member"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial.php:11
+#: framework/composer/components/vc_ewf_testimonial_adv.php:11
+#@ creatika-wp
+msgid "Client"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial.php:47
+#: framework/composer/components/vc_ewf_testimonial.php:84
+#: framework/composer/components/vc_ewf_testimonial_adv.php:83
+#@ creatika-wp
+msgid "Testimonial"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial.php:51
+#@ creatika-wp
+msgid "Add a quote, image and description"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial.php:60
+#@ creatika-wp
+msgid "Add an image to the right side of the testimonial"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial.php:69
+#: framework/composer/components/vc_ewf_testimonial_adv.php:68
+#@ creatika-wp
+msgid "Specify the the name of the testimonial author"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial.php:78
+#: framework/composer/components/vc_ewf_testimonial_adv.php:77
+#@ creatika-wp
+msgid "Specify a description of the author"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial.php:87
+#: framework/composer/components/vc_ewf_testimonial_adv.php:86
+#@ creatika-wp
+msgid "Specify the text of the testimonial"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial_adv.php:48
+#@ creatika-wp
+msgid "Testimonial Alternative"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial_adv.php:52
+#@ creatika-wp
+msgid "Add a testimonial title, image and description"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial_adv.php:59
+#@ creatika-wp
+msgid "Add an image at the bottom of the testimonial"
+msgstr ""
+
+#: framework/composer/extender-vc_row.php:9
+#@ creatika-wp
+msgid "Spread full width"
+msgstr ""
+
+#: framework/composer/extender-vc_row.php:12
+#@ creatika-wp
+msgid "Expand section full width (used for sliders in general)"
+msgstr ""
+
+#: framework/composer/extender-vc_row.php:20
+#@ creatika-wp
+msgid "Add parallax efect to this section"
+msgstr ""
+
+#: framework/composer/extender-vc_row.php:23
+#@ creatika-wp
+msgid "Add parallax effect using the image added to the post"
+msgstr ""
+
+#: framework/composer/extender-vc_row.php:40
+#@ creatika-wp
+msgid "Overlay Style"
+msgstr ""
+
+#: framework/functions-blog.php:267
+#@ creatika-wp
+msgid "Older Posts"
+msgstr ""
+
+#: framework/functions-blog.php:268
+#@ creatika-wp
+msgid "Newer Posts"
+msgstr ""
+
+#: framework/functions-blog.php:323
+#@ creatika-wp
+msgid "blog archive"
+msgstr ""
+
+#: framework/functions-blog.php:492
+#@ creatika-wp
+msgid "&#8212; Read More"
+msgstr ""
+
+#: framework/functions-blog.php:768
+#: framework/functions-blog.php:788
+#: framework/functions-type-project.php:778
+#@ creatika-wp
+msgid "Edit"
+msgstr ""
+
+#: framework/functions-blog.php:774
+#@ creatika-wp
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/functions-blog.php:788
+#@ creatika-wp
+msgid "Pingback:"
+msgstr ""
+
+#: framework/functions-menus.php:8
+#@ creatika-wp
+msgid "Top Menu"
+msgstr ""
+
+#: framework/functions-menus.php:41
+#@ creatika-wp
+msgid "Menu not selected - Please review documentation!"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: framework/functions-menus.php:316
+#, php-format
+#@ default
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: framework/functions-menus.php:320
+#, php-format
+#@ default
+msgid "%s (Pending)"
+msgstr ""
+
+#: framework/functions-menus.php:348
+#@ default
+msgid "Move up"
+msgstr ""
+
+#: framework/functions-menus.php:361
+#@ default
+msgid "Move down"
+msgstr ""
+
+#: framework/functions-menus.php:363
+#: framework/functions-menus.php:365
+#@ default
+msgid "Edit Menu Item"
+msgstr ""
+
+#: framework/functions-menus.php:381
+#@ default
+msgid "Navigation Label"
+msgstr ""
+
+#: framework/functions-menus.php:387
+#@ default
+msgid "Title Attribute"
+msgstr ""
+
+#: framework/functions-menus.php:394
+#@ default
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: framework/functions-menus.php:399
+#@ default
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: framework/functions-menus.php:405
+#@ default
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: framework/functions-menus.php:413
+#@ default
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: framework/functions-menus.php:459
+#@ creatika-wp
+msgid "Use as Mega menu"
+msgstr ""
+
+#: framework/functions-menus.php:419
+#@ creatika-wp
+msgid "Navigation Icon"
+msgstr ""
+
+#: framework/functions-menus.php:490
+#, php-format
+#@ default
+msgid "Original: %s"
+msgstr ""
+
+#: framework/functions-menus.php:503
+#@ default
+msgid "Remove"
+msgstr ""
+
+#: framework/functions-meta-contact.php:15
+#@ creatika-wp
+msgid "Contact details"
+msgstr ""
+
+#: framework/functions-meta-contact.php:47
+#: framework/widgets/widget-contact-info.php:76
+#@ creatika-wp
+msgid "Address:"
+msgstr ""
+
+#: framework/functions-meta-contact.php:51
+#@ creatika-wp
+msgid "Zoom:"
+msgstr ""
+
+#: framework/functions-meta-contact.php:54
+#@ creatika-wp
+msgid "Caption:"
+msgstr ""
+
+#: framework/functions-sidebars.php:10
+#: header.php:37
+#@ creatika-wp
+msgid "Header widget area left"
+msgstr ""
+
+#: framework/functions-sidebars.php:10
+#@ creatika-wp
+msgid "In the header left column"
+msgstr ""
+
+#: framework/functions-sidebars.php:11
+#: header.php:49
+#@ creatika-wp
+msgid "Header widget area right"
+msgstr ""
+
+#: framework/functions-sidebars.php:11
+#@ creatika-wp
+msgid "In the header right column"
+msgstr ""
+
+#: framework/functions-sidebars.php:13
+#@ creatika-wp
+msgid "Footer top widget area"
+msgstr ""
+
+#: framework/functions-sidebars.php:13
+#@ creatika-wp
+msgid "The section located above footer"
+msgstr ""
+
+#: framework/functions-sidebars.php:15
+#@ creatika-wp
+msgid "Footer widget area 1"
+msgstr ""
+
+#: framework/functions-sidebars.php:15
+#@ creatika-wp
+msgid "In the footer the left column"
+msgstr ""
+
+#: framework/functions-sidebars.php:16
+#@ creatika-wp
+msgid "Footer widget area 2"
+msgstr ""
+
+#: framework/functions-sidebars.php:16
+#@ creatika-wp
+msgid "In the footer the left center column"
+msgstr ""
+
+#: framework/functions-sidebars.php:17
+#@ creatika-wp
+msgid "Footer widget area 3"
+msgstr ""
+
+#: framework/functions-sidebars.php:17
+#@ creatika-wp
+msgid "In the footer the right center column"
+msgstr ""
+
+#: framework/functions-sidebars.php:18
+#@ creatika-wp
+msgid "Footer widget area 4"
+msgstr ""
+
+#: framework/functions-sidebars.php:18
+#@ creatika-wp
+msgid "In the footer the right column"
+msgstr ""
+
+#: framework/functions-sidebars.php:21
+#@ creatika-wp
+msgid "Footer second widget area 1"
+msgstr ""
+
+#: framework/functions-sidebars.php:21
+#: framework/functions-sidebars.php:22
+#: framework/functions-sidebars.php:23
+#: framework/functions-sidebars.php:24
+#@ creatika-wp
+msgid "The second section in footer"
+msgstr ""
+
+#: framework/functions-sidebars.php:22
+#@ creatika-wp
+msgid "Footer second widget area 2"
+msgstr ""
+
+#: framework/functions-sidebars.php:23
+#@ creatika-wp
+msgid "Footer second widget area 3"
+msgstr ""
+
+#: framework/functions-sidebars.php:24
+#@ creatika-wp
+msgid "Footer second widget area 4"
+msgstr ""
+
+#: framework/functions-sidebars.php:26
+#@ creatika-wp
+msgid "Footer bottom widget area 1"
+msgstr ""
+
+#: framework/functions-sidebars.php:26
+#: framework/functions-sidebars.php:27
+#: framework/functions-sidebars.php:28
+#: framework/functions-sidebars.php:29
+#@ creatika-wp
+msgid "The section located below footer"
+msgstr ""
+
+#: framework/functions-sidebars.php:27
+#@ creatika-wp
+msgid "Footer bottom widget area 2"
+msgstr ""
+
+#: framework/functions-sidebars.php:28
+#@ creatika-wp
+msgid "Footer bottom widget area 3"
+msgstr ""
+
+#: framework/functions-sidebars.php:29
+#@ creatika-wp
+msgid "Footer bottom widget area 4"
+msgstr ""
+
+#: framework/functions-type-project.php:137
+#@ creatika-wp
+msgid "Please add a featured image and/or other images in the page gallery to show the slider!"
+msgstr ""
+
+#: framework/functions-type-project.php:255
+#@ creatika-wp
+msgid "Project Details"
+msgstr ""
+
+#: framework/functions-type-project.php:256
+#@ creatika-wp
+msgid "Click on project details for more info"
+msgstr ""
+
+#: framework/functions-type-project.php:257
+#@ creatika-wp
+msgid "Go to project page"
+msgstr ""
+
+#: framework/functions-type-project.php:258
+#@ creatika-wp
+msgid "View larger version"
+msgstr ""
+
+#: framework/functions-type-project.php:259
+#: framework/widgets/widget-portfolio-filters.php:45
+#: framework/widgets/widget-portfolio-filters.php:90
+#@ creatika-wp
+msgid "All Work"
+msgstr ""
+
+#: framework/functions-type-project.php:260
+#@ creatika-wp
+msgid "View large"
+msgstr ""
+
+#: framework/functions-type-project.php:261
+#@ creatika-wp
+msgid "&#8212; View project"
+msgstr ""
+
+#: framework/functions-type-project.php:263
+#@ creatika-wp
+msgid "Read More"
+msgstr ""
+
+#: framework/functions-type-project.php:569
+#@ creatika-wp
+msgid "&laquo; Previous"
+msgstr ""
+
+#: framework/functions-type-project.php:573
+#@ creatika-wp
+msgid "Next &raquo;"
+msgstr ""
+
+#: framework/functions-type-project.php:663
+#: framework/functions-type-project.php:665
+#: framework/functions-type-project.php:689
+#@ creatika-wp
+msgid "&#8249; Previous"
+msgstr ""
+
+#: framework/functions-type-project.php:671
+#: framework/functions-type-project.php:673
+#: framework/functions-type-project.php:690
+#@ creatika-wp
+msgid "Next &#8250;"
+msgstr ""
+
+#: framework/functions-type-project.php:774
+#@ creatika-wp
+msgid "Projects"
+msgstr ""
+
+#: framework/functions-type-project.php:775
+#@ creatika-wp
+msgid "Project"
+msgstr ""
+
+#: framework/functions-type-project.php:776
+#@ creatika-wp
+msgid "Add New"
+msgstr ""
+
+#: framework/functions-type-project.php:777
+#@ creatika-wp
+msgid "Add New Project"
+msgstr ""
+
+#: framework/functions-type-project.php:779
+#@ creatika-wp
+msgid "Edit Project"
+msgstr ""
+
+#: framework/functions-type-project.php:780
+#@ creatika-wp
+msgid "New Project"
+msgstr ""
+
+#: framework/functions-type-project.php:781
+#: framework/functions-type-project.php:782
+#@ creatika-wp
+msgid "View Project"
+msgstr ""
+
+#: framework/functions-type-project.php:783
+#@ creatika-wp
+msgid "Search Projects"
+msgstr ""
+
+#: framework/functions-type-project.php:784
+#@ creatika-wp
+msgid "No projects found"
+msgstr ""
+
+#: framework/functions-type-project.php:785
+#@ creatika-wp
+msgid "No projects found in Trash"
+msgstr ""
+
+#: framework/functions-type-project.php:786
+#@ creatika-wp
+msgid "Parent project"
+msgstr ""
+
+#: framework/functions-type-project.php:803
+#@ creatika-wp
+msgid "Services"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:287
+#: framework/modules/ewf-header/ewf-modHeader.php:290
+#@ creatika-wp
+msgid "Page header"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:436
+#@ creatika-wp
+msgid "Use page header"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:445
+#@ creatika-wp
+msgid "Templates"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:463
+#@ creatika-wp
+msgid "Keep in mind that these settings are global"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:501
+#@ creatika-wp
+msgid "Get header settings from other page"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:574
+#@ creatika-wp
+msgid "Upload Image"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:575
+#@ creatika-wp
+msgid "Remove Image"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:635
+#@ creatika-wp
+msgid "Add a parallax effect to header"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:651
+#@ creatika-wp
+msgid "Use header from another page"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:695
+#@ creatika-wp
+msgid "Header Title"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:695
+#@ creatika-wp
+msgid "Page Title"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:695
+#: framework/modules/ewf-header/ewf-modHeader.php:859
+#@ creatika-wp
+msgid "Page excerpt"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:774
+#: framework/modules/ewf-header/ewf-modHeader.php:857
+#@ creatika-wp
+msgid "Custom text"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:858
+#@ creatika-wp
+msgid "Page title"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:930
+#@ creatika-wp
+msgid "Get the header image and title from another page"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:1175
+#@ creatika-wp
+msgid "The page has no header title"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:1179
+#@ creatika-wp
+msgid "The page has no title"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:1183
+#@ creatika-wp
+msgid "The page has no excerpt"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:14
+#@ creatika-wp
+msgid "Page Sidebar"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:20
+#@ creatika-wp
+msgid "Blog Sidebar"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:21
+#@ creatika-wp
+msgid "Services Sidebar"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:22
+#@ creatika-wp
+msgid "About Sidebar"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:23
+#@ creatika-wp
+msgid "Portfolio Sidebar"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:24
+#@ creatika-wp
+msgid "Contact Sidebar"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:261
+#@ creatika-wp
+msgid "Page layout & sidebars"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:274
+#@ creatika-wp
+msgid "Sidebar Left"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:279
+#@ creatika-wp
+msgid "No Sidebar"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:284
+#@ creatika-wp
+msgid "Sidebar Right"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:307
+#@ creatika-wp
+msgid "Sidebars"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:317
+#@ creatika-wp
+msgid "Choose the position the sidebar should have on the page"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:381
+#@ creatika-wp
+msgid "Choose from the existing sidebars, the one you want this page to use."
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:408
+#@ creatika-wp
+msgid "Use sidebar"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:418
+#@ creatika-wp
+msgid "You can choose the page layout from by clicking one for the following icons."
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:449
+#: framework/modules/ewf-layout/ewf-modLayout.php:486
+#@ creatika-wp
+msgid "Specify the sidebar title"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:449
+#: framework/modules/ewf-layout/ewf-modLayout.php:486
+#@ creatika-wp
+msgid "Sidebar title"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:450
+#: framework/modules/ewf-layout/ewf-modLayout.php:487
+#@ creatika-wp
+msgid "Add a sidebar description"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:450
+#: framework/modules/ewf-layout/ewf-modLayout.php:487
+#@ creatika-wp
+msgid "Sidebar description"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:460
+#: framework/modules/ewf-layout/ewf-modLayout.php:467
+#@ creatika-wp
+msgid "Create sidebar"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:477
+#@ creatika-wp
+msgid "Are you sure you want to delete sidebar: <strong>Blog Sidebar</strong>"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:481
+#@ creatika-wp
+msgid "Delete sidebar"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:155
+#: framework/plugins/plugins-required.php:47
+#@ creatika-wp
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:156
+#: framework/plugins/plugins-required.php:48
+#@ creatika-wp
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:157
+#: framework/plugins/plugins-required.php:49
+#, php-format
+#@ creatika-wp
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:158
+#@ creatika-wp
+msgid "Something went wrong."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:159
+#: framework/plugins/plugins-required.php:51
+#, php-format
+#@ creatika-wp
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:160
+#: framework/plugins/plugins-required.php:52
+#, php-format
+#@ creatika-wp
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:161
+#: framework/plugins/plugins-required.php:53
+#, php-format
+#@ creatika-wp
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:162
+#: framework/plugins/plugins-required.php:54
+#, php-format
+#@ creatika-wp
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:163
+#: framework/plugins/plugins-required.php:55
+#, php-format
+#@ creatika-wp
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:164
+#: framework/plugins/plugins-required.php:56
+#, php-format
+#@ creatika-wp
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:165
+#: framework/plugins/plugins-required.php:57
+#, php-format
+#@ creatika-wp
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:166
+#: framework/plugins/plugins-required.php:58
+#, php-format
+#@ creatika-wp
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:167
+#: framework/plugins/plugins-required.php:59
+#@ creatika-wp
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:168
+#: framework/plugins/plugins-required.php:60
+#@ creatika-wp
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:169
+#: framework/plugins/plugins-required.php:61
+#@ creatika-wp
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:170
+#@ creatika-wp
+msgid "Return to the dashboard"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:171
+#: framework/plugins/plugins-activation.php:1840
+#: framework/plugins/plugins-required.php:62
+#@ creatika-wp
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:173
+#, php-format
+#@ creatika-wp
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:174
+#@ creatika-wp
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1085
+#@ creatika-wp
+msgid "External Link"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1090
+#@ creatika-wp
+msgid "Private Repository"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1093
+#@ creatika-wp
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1097
+#@ creatika-wp
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1100
+#@ creatika-wp
+msgid "Required"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1100
+#@ creatika-wp
+msgid "Recommended"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1103
+#@ creatika-wp
+msgid "Not Installed"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1105
+#@ creatika-wp
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1275
+#, php-format
+#@ creatika-wp
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1291
+#@ creatika-wp
+msgid "Plugin"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1292
+#@ creatika-wp
+msgid "Source"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1293
+#@ creatika-wp
+msgid "Type"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1294
+#@ creatika-wp
+msgid "Status"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1312
+#@ creatika-wp
+msgid "Install"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1313
+#@ creatika-wp
+msgid "Activate"
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: framework/plugins/plugins-activation.php:1538
+#: framework/plugins/plugins-activation.php:172
+#@ creatika-wp
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:1823
+#@ creatika-wp
+msgid "Install package not available."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1824
+#, php-format
+#@ creatika-wp
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1825
+#@ creatika-wp
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1826
+#@ creatika-wp
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1827
+#@ creatika-wp
+msgid "Plugin install failed."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1828
+#@ creatika-wp
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1839
+#@ creatika-wp
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1949
+#@ creatika-wp
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1950
+#, php-format
+#@ creatika-wp
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1950
+#: framework/plugins/plugins-activation.php:1959
+#@ creatika-wp
+msgid "Show Details"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1950
+#: framework/plugins/plugins-activation.php:1959
+#@ creatika-wp
+msgid "Hide Details"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1951
+#@ creatika-wp
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1952
+#, php-format
+#@ creatika-wp
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1956
+#@ creatika-wp
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1957
+#, php-format
+#@ creatika-wp
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1958
+#, php-format
+#@ creatika-wp
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1959
+#, php-format
+#@ creatika-wp
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1960
+#@ creatika-wp
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1961
+#, php-format
+#@ creatika-wp
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:2052
+#@ creatika-wp
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/plugins/plugins-required.php:50
+#@ creatika-wp
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/plugins/plugins-required.php:63
+#, php-format
+#@ creatika-wp
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: framework/widgets/widget-call-to-action.php:8
+#@ creatika-wp
+msgid "A widget that displays a call to action section"
+msgstr ""
+
+#: framework/widgets/widget-call-to-action.php:10
+#@ creatika-wp
+msgid "EWF - Call to action"
+msgstr ""
+
+#: framework/widgets/widget-call-to-action.php:69
+#@ creatika-wp
+msgid "Button title:"
+msgstr ""
+
+#: framework/widgets/widget-call-to-action.php:74
+#@ creatika-wp
+msgid "Button link:"
+msgstr ""
+
+#: framework/widgets/widget-call-to-action.php:79
+#: framework/widgets/widget-contact-form.php:58
+#: framework/widgets/widget-contact-info.php:71
+#: framework/widgets/widget-flickr.php:60
+#: framework/widgets/widget-latest-posts.php:110
+#: framework/widgets/widget-latest-tweets.php:55
+#: framework/widgets/widget-social-media.php:118
+#@ creatika-wp
+msgid "Title:"
+msgstr ""
+
+#: framework/widgets/widget-call-to-action.php:84
+#@ creatika-wp
+msgid "Description:"
+msgstr ""
+
+#: framework/widgets/widget-contact-form.php:7
+#@ creatika-wp
+msgid "A widget that displays a contact form created with Contact Form 7"
+msgstr ""
+
+#: framework/widgets/widget-contact-form.php:9
+#@ creatika-wp
+msgid "EWF - Contact Form 7"
+msgstr ""
+
+#: framework/widgets/widget-contact-form.php:63
+#@ creatika-wp
+msgid "Contact Form:"
+msgstr ""
+
+#: framework/widgets/widget-contact-info.php:8
+#: framework/widgets/widget-flickr.php:8
+#@ creatika-wp
+msgid "A widget that displays brochure item"
+msgstr ""
+
+#: framework/widgets/widget-contact-info.php:10
+#@ creatika-wp
+msgid "EWF - Contact Info"
+msgstr ""
+
+#: framework/widgets/widget-contact-info.php:38
+#: framework/widgets/widget-contact-info.php:86
+#@ creatika-wp
+msgid "Phone:"
+msgstr ""
+
+#: framework/widgets/widget-contact-info.php:42
+#@ creatika-wp
+msgid "Email Address:"
+msgstr ""
+
+#: framework/widgets/widget-contact-info.php:81
+#@ creatika-wp
+msgid "E-mail:"
+msgstr ""
+
+#: framework/widgets/widget-flickr.php:10
+#@ creatika-wp
+msgid "EWF - Flickr"
+msgstr ""
+
+#: framework/widgets/widget-flickr.php:65
+#@ creatika-wp
+msgid "Gallery or User ID:"
+msgstr ""
+
+#: framework/widgets/widget-flickr.php:70
+#@ creatika-wp
+msgid "Number of items:"
+msgstr ""
+
+#: framework/widgets/widget-latest-posts.php:8
+#@ creatika-wp
+msgid "A widget that displays popular posts from blog"
+msgstr ""
+
+#: framework/widgets/widget-latest-posts.php:10
+#@ creatika-wp
+msgid "EWF - Latest Posts"
+msgstr ""
+
+#: framework/widgets/widget-latest-posts.php:83
+#: templates/blog-columns-full.php:77
+#: templates/blog-item-default.php:75
+#: templates/blog-item-timeline.php:59
+#@ creatika-wp
+msgid "comments"
+msgstr ""
+
+#: framework/widgets/widget-latest-posts.php:115
+#: framework/widgets/widget-latest-tweets.php:65
+#@ creatika-wp
+msgid "How many post to show:"
+msgstr ""
+
+#: framework/widgets/widget-latest-tweets.php:8
+#@ creatika-wp
+msgid "A widget that displays latest tweets from a specified account"
+msgstr ""
+
+#: framework/widgets/widget-latest-tweets.php:10
+#@ creatika-wp
+msgid "EWF - Latest Tweets"
+msgstr ""
+
+#: framework/widgets/widget-latest-tweets.php:60
+#@ creatika-wp
+msgid "Twitter account ID:"
+msgstr ""
+
+#: framework/widgets/widget-navigation.php:8
+#: framework/widgets/widget-portfolio-filters.php:8
+#@ creatika-wp
+msgid "A widget that displays sub pages navigation"
+msgstr ""
+
+#: framework/widgets/widget-navigation.php:10
+#@ creatika-wp
+msgid "EWF - Navigation"
+msgstr ""
+
+#: framework/widgets/widget-navigation.php:96
+#: framework/widgets/widget-portfolio-filters.php:94
+#@ creatika-wp
+msgid "Section title:"
+msgstr ""
+
+#: framework/widgets/widget-navigation.php:122
+#@ creatika-wp
+msgid "Show parent"
+msgstr ""
+
+#: framework/widgets/widget-portfolio-filters.php:10
+#@ creatika-wp
+msgid "EWF - Project Filter"
+msgstr ""
+
+#: framework/widgets/widget-portfolio-filters.php:99
+#@ creatika-wp
+msgid "All Work Title:"
+msgstr ""
+
+#: framework/widgets/widget-portfolio-filters.php:105
+#@ creatika-wp
+msgid "Show portfolio link"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:8
+#@ creatika-wp
+msgid "A widget that displays social media icons designed for header top"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:10
+#@ creatika-wp
+msgid "EWF - Social Media"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:123
+#@ creatika-wp
+msgid "Facebook profile URL:"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:128
+#@ creatika-wp
+msgid "Twitter profile URL:"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:133
+#@ creatika-wp
+msgid "Google Plus profile URL:"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:138
+#@ creatika-wp
+msgid "Pinterest profile URL:"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:143
+#@ creatika-wp
+msgid "YouTube profile URL:"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:148
+#@ creatika-wp
+msgid "Dribbble profile URL:"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:153
+#@ creatika-wp
+msgid "Tumblr profile URL:"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:158
+#@ creatika-wp
+msgid "Instagram profile URL:"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:163
+#@ creatika-wp
+msgid "RSS Feed URL:"
+msgstr ""
+
+#: search.php:13
+#@ creatika-wp
+msgid "The search for"
+msgstr ""
+
+#: search.php:13
+#@ creatika-wp
+msgid "returned no posts."
+msgstr ""
+
+#: search.php:15
+#@ creatika-wp
+msgid "Search results for"
+msgstr ""
+
+#: templates/blog-item-default.php:96
+#@ creatika-wp
+msgid "Tags"
+msgstr ""
+
+#: templates/blog-item-timeline.php:55
+#@ creatika-wp
+msgid "Posted by"
+msgstr ""
+
+#: templates/blog-item-timeline.php:57
+#@ creatika-wp
+msgid "in"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:60
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:334
+#@ creatika-wp
+msgid "Load more"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:64
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:325
+#@ creatika-wp
+msgid "All"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:317
+#@ creatika-wp
+msgid "Change the title of load more button."
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:323
+#@ creatika-wp
+msgid "All Label"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:332
+#@ creatika-wp
+msgid "'Load more' text"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:367
+#@ creatika-wp
+msgid "Show 'Load More' button below the grid"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_isogrid/vc_ewf_portfolio_isogrid.php:370
+#@ creatika-wp
+msgid "Show it"
+msgstr ""
+
+#: framework/functions-menus.php:333
+#@ default
+msgid "sub item"
+msgstr ""
+
+#: framework/functions-menus.php:478
+#@ default
+msgid "Move"
+msgstr ""
+
+#: framework/functions-menus.php:479
+#@ default
+msgid "Up one"
+msgstr ""
+
+#: framework/functions-menus.php:480
+#@ default
+msgid "Down one"
+msgstr ""
+
+#: framework/functions-menus.php:483
+#@ default
+msgid "To the top"
+msgstr ""
+

@@ -1,0 +1,89 @@
+/* ==========================================================================
+   #Custom Lists
+   ========================================================================== */
+
+	@import url('fontawesome/font-awesome.min.css');
+	@import url('iconfontcustom/icon-font-custom.css');
+   
+	/**
+ 	 * Custom lists
+ 	 *
+	 * 1. unstyled list
+	 * 2. list with squares for bullets
+	 * 3. list with discs for bullets
+	 *
+	 */
+	 
+	ul.unstyled { list-style-type: none; } /* 1 */
+	ul.square { list-style-type: square; } /* 2 */
+	ul.circle { list-style-type: circle; } /* 3 */
+	
+	/**
+ 	 * FontAwesome lists
+ 	 *
+	 * 1. Check list
+	 * 2. Fill circle list
+	 * 3. Arrow list
+	 *
+	 */
+	 
+	ul.check,								/* 1 */
+	ul.fill-circle,							/* 2 */
+	ul.ewf-list-arrow,						/* 3 */
+	ul.arrow { list-style: none; }			/* 4 */		
+	
+	ul.check li:before,
+	ul.fill-circle li:before,
+	ul.arrow li:before { 
+		position: relative;
+		top: -1px;
+		width: auto;
+		height: auto;
+		margin-right: 10px;
+		color: #ea6872;
+		font-family: 'FontAwesome';
+		font-style: normal;
+		vertical-align: middle;
+	}	
+	ul.ewf-list-arrow li:before { 
+		position: relative;
+		top: -1px;
+		width: auto;
+		height: auto;
+		margin-right: 10px;
+		color: #ea6872;
+		font-family: 'FontAwesome';
+		font-style: normal;
+		vertical-align: middle;
+	}
+	
+	ul.check li:before {
+		font-size: 13px;
+		content: "";
+	}
+	
+	ul.fill-circle li:before {
+		font-size: 7px;
+		content: "";
+	}
+	
+	ul.ewf-list-arrow li:before {
+		font-size: 16px;
+		content: ""; 
+	}	
+	
+	ul.arrow li:before {
+		font-size: 16px;
+		content: ""; 
+	}
+	
+	ul.check li,
+	ul.fill-circle li,
+	ul.arrow li { margin-bottom: 10px; }	
+	ul.ewf-list-arrow li { margin-bottom: 10px; }	
+	
+	ul.check li:last-child,
+	ul.fill-circle li:last-child,
+	ul.arrow li:last-child { margin-bottom: 0; }	
+	ul.ewf-list-arrow li:last-child { margin-bottom: 0; }	
+
