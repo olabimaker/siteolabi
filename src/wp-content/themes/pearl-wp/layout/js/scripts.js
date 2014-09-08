@@ -436,6 +436,10 @@
 		handleVideoBackground();
 		
 	});
+
+    $('.maps-overlay').click(function(){
+        $(this).css('pointerEvents', 'none');
+    });
 	
 
 })(window.jQuery);
