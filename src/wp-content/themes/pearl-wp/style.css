@@ -21,15 +21,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     width: 60px;
 }
 
-.fb_iframe_widget {
-    float: right;
-}
-
 .maps-overlay {
     background:transparent;
     position:relative;
     width:100%;
-    height:300px;
-    top:300px;
-    margin-top:-300px;
 }

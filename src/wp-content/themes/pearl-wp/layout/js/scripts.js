@@ -437,10 +437,48 @@
 		
 	});
 
-    $('.maps-overlay').click(function(){
-        $(this).css('pointerEvents', 'none');
+    var styles = [
+        {
+            "stylers": [
+                {"saturation": -75},
+                {"hue": "#004a60"}
+            ]
+        }
+
+    ];
+    var options = {
+        scrollwheel: false,
+        mapTypeControlOptions: {
+            mapTypeIds: ['Styled']
+        },
+        center: new google.maps.LatLng(-22.947388999999998, -43.18808119999999),
+        zoom: 16,
+        disableDefaultUI: false,
+        mapTypeId: 'Styled'
+    };
+    var div = document.getElementById('map');
+    var map = new google.maps.Map(div, options);
+
+    var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(-22.947388999999998, -43.18808119999999),
+        map: map
     });
-	
+
+    marker.setIcon('http://loading.olabi.co/wp-content/themes/pearl-wp/layout/images/olabi-pin.png');
+
+    var contentString = '<span style="color:black;">Barão de Lucena, 85A - Botafogo</span>';
+    var infowindow = new google.maps.InfoWindow({
+        content: contentString
+    });
+
+    google.maps.event.addListener(marker, 'click', function() {
+        infowindow.open(map,marker);
+    });
+
+    infowindow.open(map,marker);
+
+    var styledMapType = new google.maps.StyledMapType(styles, {name: 'Styled'});
+    map.mapTypes.set('Styled', styledMapType);
 
 })(window.jQuery);
 

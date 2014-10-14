@@ -537,20 +537,20 @@
 	
 	.team-member {
 		padding: 30px;
-		margin: 80px 0 100px 0;
+		margin: 10px 0 10px 0;
 		background: url(../images/bg-team-member.png) no-repeat center center;
 		color: #fff;
 		-webkit-transition: all 0.3s;
 				transition: all 0.3s;
 	}
 	
-	.team-member h1 {
+	.team-member h2 {
 		margin-bottom: 20px;
 		color: #fff;
 		text-align: center;
 	}
 	
-	.team-member h3 {
+	.team-member h4 {
 		color: #fff;
 		text-align: center;
 		text-transform: uppercase;
@@ -588,8 +588,8 @@
 	
 	.team-member.alt .social-media { border-color: #959595;  }
 	
-	.team-member.alt h1,
-	.team-member.alt h3,
+	.team-member.alt h2,
+	.team-member.alt h4,
 	.team-member.alt .social-media a.social-icon { color: #5e5e5e; }
 	
 	.team-member.alt:hover { 
@@ -599,8 +599,8 @@
 	
 	.team-member.alt:hover .social-media { border-color: #fff;  }
 	
-	.team-member.alt:hover h1,
-	.team-member.alt:hover h3,
+	.team-member.alt:hover h2,
+	.team-member.alt:hover h4,
 	.team-member.alt:hover .social-media a.social-icon { color: #fff; }
 
 /* #Services

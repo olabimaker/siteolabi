@@ -64,10 +64,12 @@
 								
 				if ($ewf_post_categories){
 					echo '<i class="ifc-ball_point_pen"></i> '.__('Posted in', EWF_SETUP_THEME_DOMAIN).' ';
-					echo  $ewf_post_categories.' | ';
+					echo  $ewf_post_categories
+                    //    .' | '
+                    ;
 				}
 			
-				echo '<i class="ifc-quote"></i> <a href="'.get_permalink().'#comments"> '.get_comments_number().' '.__('comments', EWF_SETUP_THEME_DOMAIN).'</a>';
+				//echo '<i class="ifc-quote"></i> <a href="'.get_permalink().'#comments"> '.get_comments_number().' '.__('comments', EWF_SETUP_THEME_DOMAIN).'</a>';
 			
 			echo  '</p>';
 		echo '</div>';

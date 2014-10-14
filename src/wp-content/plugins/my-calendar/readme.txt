@@ -5,7 +5,7 @@ Tags: calendar, dates, times, event, events, scheduling, schedule, event manager
 Requires at least: 3.7.0
 Tested up to: 4.0
 License: GPLv2 or later
-Stable tag: 2.3.12
+Stable tag: 2.3.13
 
 Accessible WordPress event calendar plugin. Show events from multiple calendars on pages, in posts, or in widgets.
 
@@ -43,7 +43,7 @@ Easy to use for anybody, My Calendar provides enormous potential for developers 
 = Translations =
 
 Available translations (in order of completeness):
-French, Japanese, Danish, Dutch, Russian, German, Italian, Spanish, Galician, Danish, Czech, Hindi, Turkish, Polish, Finnish, Slovenian, Portuguese, Swedish, Romanian, Basque, Persian
+French, Japanese, Danish, Dutch, Russian, German, Italian, Spanish, Galician, Danish, Czech, Hindi, Turkish, Polish, Finnish, Slovenian, Portuguese, Swedish, Romanian, Norwegian, Hungarian, Basque, Persian
 
 Visit the [My Calendar translations site](http://translate.joedolson.com/projects/my-calendar) to check the progress of a translation.
 
@@ -86,6 +86,11 @@ Translating my plug-ins is always appreciated. Visit <a href="http://translate.j
 * Add ability to completely remove link on event title in calendar grid.
 * Feature: allow limiting of categories to specific member groups
 
+
+= 2.3.14 =
+
+* Bug fix: Disabled front-end event editing links for logged-in users.
+* Language updates: Spanish, Norwegian, Hungarian
 
 = 2.3.13 =
 
