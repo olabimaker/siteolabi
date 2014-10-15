@@ -37,7 +37,7 @@
         <!-- /// HEADER TOP  //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
         
             <div class="ewf-row">
-                <div class="ewf-span5" id="header-top-widget-area-1">
+                <div class="ewf-span2" id="header-top-widget-area-1">
 				<?php
 					
 					if (is_active_sidebar('header-left')){
@@ -49,7 +49,7 @@
 				?>
                 </div><!-- end .span5 -->
 
-                <div class="ewf-span6" id="header-top-widget-area-2">
+                <div class="ewf-span7" id="header-top-widget-area-2">
 				<?php
 					
 					if (is_active_sidebar('header-right')){
@@ -63,7 +63,7 @@
 
 
 		        <div class="ewf-span1 logo-templo">
-				    <a href="http://templo.co" target="_blank"><img src="http://loading.olabi.co/wp-content/uploads/2014/07/logo-white-templo.png"  /></a>
+				    <a href="http://templo.co" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/layout/images/logo-white-templo.png"  /></a>
                 </div><!-- end .span1 -->
             </div><!-- end .row -->
             

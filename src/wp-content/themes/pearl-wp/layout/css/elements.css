@@ -2165,7 +2165,7 @@
 	
 	.ewf_widget_social_media {}
 	
-	#header-top .ewf_widget_social_media { float: right; }
+	/*#header-top .ewf_widget_social_media { float: right; }*/
 	#header-top .ewf_widget_social_media a.social-icon { color: #fff; }
 	
 	.alternative #footer-middle .ewf_widget_social_media .widget-title { margin-bottom: 20px; }

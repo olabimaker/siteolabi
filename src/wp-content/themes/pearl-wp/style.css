@@ -18,11 +18,89 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 .logo-templo {
     height: 30px;
-    width: 60px;
+    width: 210px;
 }
 
 .maps-overlay {
     background:transparent;
     position:relative;
     width:100%;
+}
+
+#header-top .widget {
+    margin-bottom: 0px;
+    float: left;
+}
+#header {
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+
+#logo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#header .sf-menu {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#header .sf-menu li {
+    height: 175px;
+}
+
+#header .sf-menu li:hover {
+    background-color: #004a61;
+}
+
+#header .sf-menu > li > a:hover {
+    color: #fff;
+}
+
+#header .sf-menu > li > a, .sf-menu > li.dropdown > a {
+    font-size: 26px;
+    line-height: 150px;
+}
+
+#content .ewf-wrapper .wpb_text_column .ewf-wrapper h3 {
+    color: #e6225b;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#content .ewf-wrapper .wpb_text_column .ewf-wrapper p {
+    color: #004a61;
+    font-size: 14px;
+}
+
+#footer h4 {
+    font-size: 22px;
+    width: 70%;
+}
+
+#footer h5 {
+    color: #004960;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+#footer p a, #footer p a:visited {
+    color: #f7bccd;
+}
+
+#footer h3.widget-title {
+    font-size: 28px;
+    font-style: italic;
+}
+
+#back-to-top {
+    background: url(./layout/images/up-icon.png) no-repeat;
+    background-position: center;
+    border-radius: 0;
+}
+
+.ifc-up4:before {
+    content: "";
 }
