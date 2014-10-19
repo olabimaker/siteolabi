@@ -11,4 +11,10 @@
 	
 	include_once ('framework/framework-setup.php');
 
+    add_filter( 'mc4wp_form_css_classes', 'filtro_form_mailchimp' );
+    function filtro_form_mailchimp ( $classes ) {
+        $classes[] = 'form-inline';
+	    return $classes;
+    }
+
 ?>

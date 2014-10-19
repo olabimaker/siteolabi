@@ -51,13 +51,22 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     height: 175px;
 }
 
-#header .sf-menu li:hover {
+#header .sf-menu li:hover, #header .sf-menu li.current-menu-item {
     background-color: #004a61;
 }
 
-#header .sf-menu > li > a:hover {
+#header .sf-menu > li > a:hover, #header .sf-menu li.current-menu-item {
     color: #fff;
 }
+
+.sf-menu > li.current-menu-ancestor > a span, .sf-menu > li.current-menu-parent > a span, .sf-menu > li.current-page-parent > a span, .sf-menu > li.current > a span, .sf-menu > li.current > a:hover span {
+    background: none !important;
+}
+
+.sf-menu > li.current-menu-ancestor > a span, .sf-menu > li.current-menu-parent > a span, .sf-menu > li.current-page-parent > a span, .sf-menu > li.current > a span, .sf-menu > li.current > a:hover span {
+    background: none !important;
+}
+
 
 #header .sf-menu > li > a, .sf-menu > li.dropdown > a {
     font-size: 26px;
@@ -103,4 +112,44 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 .ifc-up4:before {
     content: "";
+}
+
+.calendario-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+input, textarea, select {
+    background: #004960;
+    border: none;
+    border-radius: 0px;
+    box-sizing: inherit;
+    color: #9eabaa;
+    display: block;
+    font: 12px "Open Sans",Arial,sans-serif;
+    margin-bottom: 10px;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.form-inline input, .form-inline textarea, .form-inline select {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.mc4wp-form input[name="EMAIL"] {
+    width: 300px;
+    font-size: 18px;
+}
+
+input[value="Ok"] {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    border: none;
+    background: url(./layout/images/send-olabi.png) no-repeat left top;
+    width:35px;
+    cursor: pointer;
+    font-size: 0px;
+    height: 45px;
 }
