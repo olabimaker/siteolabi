@@ -16,6 +16,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @import url('layout/css/elements.css');
 @import url('layout/css/layout.css');
 
+h2 {
+    color: #e6225b;
+}
+
+h3 {
+    color: #e6225b !important;
+}
+
 .logo-templo {
     height: 30px;
     width: 210px;
@@ -73,13 +81,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     line-height: 150px;
 }
 
-#content .ewf-wrapper .wpb_text_column .ewf-wrapper h3 {
-    color: #e6225b;
+.box-itens-apresentacao h3 {
     font-size: 30px;
     margin-bottom: 30px;
 }
 
-#content .ewf-wrapper .wpb_text_column .ewf-wrapper p {
+.box-itens-apresentacao p {
     color: #004a61;
     font-size: 14px;
 }
@@ -152,4 +159,46 @@ input[value="Ok"] {
     cursor: pointer;
     font-size: 0px;
     height: 45px;
+}
+
+.sobre-lista-itens ul {
+    margin-left: 65px;
+}
+
+.sobre-lista-itens li {
+    color: #e6225b;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.sobre-lista-itens li span {
+    color: #b6ada5;
+}
+
+.team-member img {
+    border-radius: 0px;
+}
+
+.team-member h1 {
+    font-size: 18px;
+}
+
+.team-member {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.team-member .social-media {
+    border-bottom: 0px !important;
+    border-top: 0px !important;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.linha-lista-equipe div {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
 }
