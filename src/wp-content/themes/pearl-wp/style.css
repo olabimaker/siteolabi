@@ -16,6 +16,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @import url('layout/css/elements.css');
 @import url('layout/css/layout.css');
 
+h2 {
+    color: #e6225b;
+}
+
+h3 {
+    color: #e6225b !important;
+}
+
 .logo-templo {
     height: 30px;
     width: 210px;
@@ -51,26 +59,34 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     height: 175px;
 }
 
-#header .sf-menu li:hover {
+#header .sf-menu li:hover, #header .sf-menu li.current-menu-item {
     background-color: #004a61;
 }
 
-#header .sf-menu > li > a:hover {
+#header .sf-menu > li > a:hover, #header .sf-menu li.current-menu-item {
     color: #fff;
 }
+
+.sf-menu > li.current-menu-ancestor > a span, .sf-menu > li.current-menu-parent > a span, .sf-menu > li.current-page-parent > a span, .sf-menu > li.current > a span, .sf-menu > li.current > a:hover span {
+    background: none !important;
+}
+
+.sf-menu > li.current-menu-ancestor > a span, .sf-menu > li.current-menu-parent > a span, .sf-menu > li.current-page-parent > a span, .sf-menu > li.current > a span, .sf-menu > li.current > a:hover span {
+    background: none !important;
+}
+
 
 #header .sf-menu > li > a, .sf-menu > li.dropdown > a {
     font-size: 26px;
     line-height: 150px;
 }
 
-#content .ewf-wrapper .wpb_text_column .ewf-wrapper h3 {
-    color: #e6225b;
+.box-itens-apresentacao h3 {
     font-size: 30px;
     margin-bottom: 30px;
 }
 
-#content .ewf-wrapper .wpb_text_column .ewf-wrapper p {
+.box-itens-apresentacao p {
     color: #004a61;
     font-size: 14px;
 }
@@ -103,4 +119,86 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 .ifc-up4:before {
     content: "";
+}
+
+.calendario-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+input, textarea, select {
+    background: #004960;
+    border: none;
+    border-radius: 0px;
+    box-sizing: inherit;
+    color: #9eabaa;
+    display: block;
+    font: 12px "Open Sans",Arial,sans-serif;
+    margin-bottom: 10px;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.form-inline input, .form-inline textarea, .form-inline select {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.mc4wp-form input[name="EMAIL"] {
+    width: 300px;
+    font-size: 18px;
+}
+
+input[value="Ok"] {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    border: none;
+    background: url(./layout/images/send-olabi.png) no-repeat left top;
+    width:35px;
+    cursor: pointer;
+    font-size: 0px;
+    height: 45px;
+}
+
+.sobre-lista-itens ul {
+    margin-left: 65px;
+}
+
+.sobre-lista-itens li {
+    color: #e6225b;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.sobre-lista-itens li span {
+    color: #b6ada5;
+}
+
+.team-member img {
+    border-radius: 0px;
+}
+
+.team-member h1 {
+    font-size: 18px;
+}
+
+.team-member {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.team-member .social-media {
+    border-bottom: 0px !important;
+    border-top: 0px !important;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.linha-lista-equipe div {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
 }
