@@ -106,9 +106,10 @@ h3 {
     color: #f7bccd;
 }
 
-#footer h3.widget-title {
+#footer h3.widget-title span {
     font-size: 28px;
     font-style: italic;
+    color: #fff;
 }
 
 #back-to-top {
