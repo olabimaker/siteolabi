@@ -10,10 +10,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "avenuefactory/lamp"
-  config.vm.provision :shell, path: "bootstrap.sh"
+  config.vm.box = "ubuntu/trusty64"
+  # config.vm.provision :shell, path: "bootstrap.sh"
   config.vm.network :forwarded_port, host: 4567, guest: 80
-  config.vm.network :forwarded_port, host: 3306, guest: 3306
+  # config.vm.network :forwarded_port, host: 3306, guest: 3306
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -54,7 +54,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #
   #   # Use VBoxManage to customize the VM. For example to change memory:
   #   vb.customize ["modifyvm", :id, "--memory", "1024"]
-  # end
+#	 end
   #
   # View the documentation for the provider you're using for more
   # information on available options.
