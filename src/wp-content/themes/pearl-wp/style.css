@@ -309,19 +309,15 @@ input[value="Ok"] {
     font-size: 1.5em!important;
 }
 .programacao-header .em-events-search input::-webkit-input-placeholder{  
-    color: red;
     font-size: 1.5em!important;
 }
 .programacao-header .em-events-search input:-moz-placeholder{  
-    color: red;
     font-size: 1.5em!important;
 }
 .programacao-header .em-events-search input::-moz-placeholder{  
-    color: red;
     font-size: 1.5em!important;
 }
 .programacao-header .em-events-search input:-ms-input-placeholder {  
-    color: red;
     font-size: 1.5em!important;
 }
 
@@ -355,6 +351,12 @@ input[value="Ok"] {
     margin-left: 1em;
     font-size: 2em;
     font-weight: 300;
+}
+
+.programacao-main .css-events-list h1 {
+    font-size: 2em;
+    margin-top: 80px;
+    color: #e6225b;
 }
 
 .programacao-main article {
@@ -401,4 +403,59 @@ input[value="Ok"] {
     text-align: center;
     padding: 0.5em;
     margin-bottom: 0.5em;
+}
+
+.programacao-single-header h1 {
+    color: #e6225b;
+    font-style: normal;
+}
+
+.programacao-single-main {
+    margin-top: 75px;
+}
+
+.programacao-single-middle {
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.programacao-single-middle .button {
+    background-color: #e6225b;
+}
+
+.programacao-single-middle em {
+    background-color: #004960;
+}
+
+.programacao-single-middle .button,
+.programacao-single-middle em {
+    display: block;
+    padding: 1em 0px;
+    color: #fff;
+    width: 80%;
+    font-style: normal;
+    margin: 0.25em auto;
+}
+
+.programacao-single-right {
+    background-color: rgb(151, 145, 139);
+    color: #fff;
+    padding: 0px 1em;
+}
+
+.programacao-single-right .logo {
+    margin: 0 -1em;
+    width: 100%;
+    height: auto;
+}
+
+.programacao-single-right .fixed {
+    text-align: center;
+    margin: 1em 0px;
+}
+
+.programacao-single-right a.social-icon {
+    color: #fff;
 }
