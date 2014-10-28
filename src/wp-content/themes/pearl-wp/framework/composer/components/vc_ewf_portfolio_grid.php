@@ -3,7 +3,7 @@
 	
 	#	Register image size for project
 	#
-	add_image_size( 'ewf-portfolio-grid', 273, 252, true);
+	add_image_size( 'ewf-portfolio-grid', 273, 552, true);
 	
 	
 	#	Register shortcode for Visual Composer component
@@ -146,7 +146,7 @@
                         </div><!-- end .portfolio-item-preview -->
                         
                         <div class="portfolio-item-description">
-                            <p><a href="#">'.get_the_title().'</a></p>
+                            <p><a href="' . get_the_permalink() . '">'.get_the_title().'</a></p>
                             <p class="text-highlight">'.get_the_excerpt().'</p>
                         </div><!-- end .portfolio-item-description -->
                         

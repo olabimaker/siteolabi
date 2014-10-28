@@ -240,7 +240,11 @@ input[value="Ok"] {
     background-color: #004960;
 }
 
-.header-azul h3 {
+.header-cinza {
+    background-color: #b6ada5;
+}
+
+.header-full h3 {
     width: 1170px;
     margin: 0 auto;
     padding-top: 30px;
@@ -407,7 +411,8 @@ input[value="Ok"] {
     background-color: #004a61 !important;
     opacity: .7;
     position: absolute;
-    top: 250px;
+    top: 65%;
+    bottom: 0;
 }
 
 .portfolio-grid .portfolio-item-description a {
