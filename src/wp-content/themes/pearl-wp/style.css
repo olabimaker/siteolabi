@@ -402,3 +402,25 @@ input[value="Ok"] {
     padding: 0.5em;
     margin-bottom: 0.5em;
 }
+
+.portfolio-grid .portfolio-item-description {
+    background-color: #004a61 !important;
+    opacity: .7;
+    position: absolute;
+    top: 250px;
+}
+
+.portfolio-grid .portfolio-item-description a {
+    color: #e6225b !important;
+    font-size: 30px;
+    text-align: left;
+}
+
+.portfolio-item-description {
+    text-align: left;
+    padding: 20px !important;
+}
+
+.text-highlight {
+    color: #9eabaa;
+}

@@ -17,4 +17,6 @@
 	    return $classes;
     }
 
+//    add_image_size( 'ewf-portfolio-grid', 273, 252, true);
+
 ?>
