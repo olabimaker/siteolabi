@@ -429,3 +429,58 @@ input[value="Ok"] {
 .text-highlight {
     color: #9eabaa;
 }
+
+.testimonial {
+    border-right: 1px solid #aeaeae;
+}
+
+.testimonial blockquote {
+    padding-top: 0px;
+    margin-right: 10px;
+    float: left;
+    width: 60%;
+}
+
+.testimonial blockquote h3 {
+    font-size: 18px;
+    color: #b6ada5 !important;
+}
+
+.testimonial-author img {
+    border: 0px !important;
+    border-radius: 0%;
+    margin-bottom: 0px;
+}
+
+.testimonial-author {
+    background: none !important;
+    text-align: left;
+    padding: 0;
+    height: 115px;
+}
+
+.testimonial-author .photo {
+    width: 45%;
+    float: left;
+    overflow: hidden;
+    height: 155px;
+}
+
+.testimonial-author .description {
+    background-color: #b6ada5;
+    color: #fff;
+    padding: 20px;
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+
+.testimonial-author .description a.social-icon {
+    color: #fff;
+}
+
+.testimonial-author .description h3 {
+    font-size: 14px;
+    color: #fff !important;
+    margin-top: 20px;
+}
