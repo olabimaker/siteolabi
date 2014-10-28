@@ -357,7 +357,7 @@ input[value="Ok"] {
     font-weight: 300;
 }
 
-.programacao-main .css-events-list h1 {
+.programacao-main .css-events-list h1.no-events {
     font-size: 2em;
     margin-top: 80px;
     color: #e6225b;
