@@ -85,7 +85,7 @@
 		<!-- /// HEADER  //////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
 			<div class="ewf-row">
-				<div class="ewf-span3">
+				<div class="ewf-span2">
 				
 					<!-- // Logo // -->
 					<?php 
@@ -102,8 +102,8 @@
 							
 					?>		
 
-				</div><!-- end .span4 -->
-				<div class="ewf-span9">
+				</div><!-- end .span2 -->
+				<div class="ewf-span10">
 				
                 	<a id="mobile-menu-trigger" href="#">
                     	<i class="fa fa-bars"></i>

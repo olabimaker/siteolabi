@@ -43,11 +43,11 @@ h3 {
 #header {
     padding-top:0px;
     padding-bottom: 0px;
+    height: 125px;
 }
 
 #logo {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
 }
 
 #header .sf-menu {
@@ -57,7 +57,7 @@ h3 {
 }
 
 #header .sf-menu li {
-    height: 175px;
+    height: 125px;
 }
 
 #header .sf-menu li:hover, #header .sf-menu li.current-menu-item {
@@ -78,8 +78,8 @@ h3 {
 
 
 #header .sf-menu > li > a, .sf-menu > li.dropdown > a {
-    font-size: 26px;
-    line-height: 150px;
+    font-size: 22px;
+    line-height: 100px;
 }
 
 .box-itens-apresentacao h3 {
