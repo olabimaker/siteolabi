@@ -113,6 +113,19 @@ h3 {
     color: #fff;
 }
 
+#footer-middle {
+    padding: 30px 0 0;
+}
+
+#footer-bottom {
+    background-color: #004960 !important;
+    padding-bottom: 0px;
+}
+
+#footer-bottom-widget-area-2 div {
+    float: right;
+}
+
 #back-to-top {
     background: url(./layout/images/up-icon.png) no-repeat;
     background-position: center;
