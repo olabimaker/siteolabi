@@ -276,8 +276,7 @@ input[value="Ok"] {
 }
 
 .programacao-sidebar {
-    background-color: #99b6bf;
-    padding: 80px 25px;
+    padding: 80px 25px 20px;
     font-style: italic;
 }
 
@@ -299,17 +298,13 @@ input[value="Ok"] {
     color: #fff;
     margin-top: 50px;
     margin-bottom: 25px;
-}
-
-.programacao-sidebar .wpb_heading {
-    margin-top: 0px;
-    margin-bottom: -25px;
-    color: #004a61;
+    font-weight: normal!important;
 }
 
 .programacao-header {
     background-color: #004960;
     padding: 30px 30px 0px;
+    margin-bottom: -40px;
 }
 
 .programacao-header .em-events-search {
@@ -329,9 +324,10 @@ input[value="Ok"] {
 
 .programacao-header .em-events-search input {
     height: 20px;
-    width: 60%!important;
+    width: 70%!important;
     background-color: #fff;
-    padding: 20px!important;
+    padding: 4%!important;
+    margin-bottom: -35px;
     font-size: 21px!important;
 }
 .programacao-header .em-events-search input::-webkit-input-placeholder {
@@ -353,11 +349,13 @@ input[value="Ok"] {
 
 .programacao-header .em-events-search .em-search-submit {
     height: 60px;
-    width: 60px;
+    width: 15%;
     top: 0px!important;
     right: 12px;
-    background: url(./layout/images/send-olabi.png) no-repeat left top!important;
+    background: url(./layout/images/search.png) no-repeat left top!important;
     background-color: transparent!important;
+    background-size: contain!important;
+    background-position: right, center!important;
     -moz-border-radius: 0px!important;
     -webkit-border-radius: 0px!important;
     border-radius: 0px!important;
@@ -383,6 +381,15 @@ input[value="Ok"] {
     font-weight: 300;
 }
 
+.programacao-middle {
+    background-color: #99b6bf;
+    margin-bottom: -50px;
+}
+
+.programacao-main {
+    min-height: 500px;
+    margin-left: -25px;
+}
 .programacao-main .css-events-list h1.no-events {
     font-size: 2em;
     margin-top: 80px;
@@ -392,19 +399,23 @@ input[value="Ok"] {
 .programacao-main article {
     clear: both;
     margin-top: 80px;
+    margin-left: 50px;
     overflow: hidden;
     zoom: 1;
+    line-height: 1.2em;
 }
 
 .programacao-main article header {
     margin-bottom: 1em;
 }
 
-.programacao-main article header img{
-    height: auto;
-    width: 60%;
+.programacao-main article header .evento-image{
+    height: 314px;
+    width: 342px;
     float: right;
     margin-left: 25px;
+    background-size: cover!important;
+    background-position: center center;
 }
 
 .programacao-main article header h1 {
