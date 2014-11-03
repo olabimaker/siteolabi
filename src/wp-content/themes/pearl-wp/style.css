@@ -44,6 +44,7 @@ h3 {
     padding-top:0px;
     padding-bottom: 0px;
     height: 125px;
+    border-bottom: 1px solid #004a61;
 }
 
 #logo {
@@ -176,6 +177,10 @@ input[value="Ok"] {
     height: 45px;
 }
 
+.sobre-lista-itens {
+    margin-left: 50px;
+}
+
 .sobre-lista-itens ul {
     margin-left: 65px;
     list-style: none;
@@ -184,7 +189,7 @@ input[value="Ok"] {
 }
 
 .sobre-lista-itens li {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 30px;
     margin-bottom: 50px;
     padding-left: 1em;
@@ -192,7 +197,7 @@ input[value="Ok"] {
 }
 
 .sobre-lista-itens li:before {
-    font-size: 36px;
+    font-size: 30px;
     content: "• ";
     color: #e6225b;
 }
@@ -206,7 +211,7 @@ input[value="Ok"] {
 }
 
 .team-member h1 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .team-member {
@@ -242,12 +247,16 @@ input[value="Ok"] {
     padding-bottom: 10px;
 }
 
-.linha-lista-equipe div {
+.linha-lista-equipe > div {
     margin-left: 0;
     padding-left: 0;
+    width: 16.6%;
 }
 
-
+.duvidas {
+    margin-left: 14.128%;
+    width: 36.9362%
+}
 
 .header-azul {
     background-color: #004960;
