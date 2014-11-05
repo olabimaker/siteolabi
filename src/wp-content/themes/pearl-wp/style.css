@@ -381,6 +381,10 @@ input[value="Ok"] {
     font-weight: 300;
 }
 
+.programacao-filtros {
+    padding-left: 50px;
+}
+
 .programacao-middle {
     background-color: #99b6bf;
     margin-bottom: -50px;
@@ -388,7 +392,6 @@ input[value="Ok"] {
 
 .programacao-main {
     min-height: 500px;
-    margin-left: -25px;
 }
 .programacao-main .css-events-list h1.no-events {
     font-size: 2em;
