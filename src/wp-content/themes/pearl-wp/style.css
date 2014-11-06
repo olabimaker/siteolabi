@@ -452,6 +452,7 @@ input[value="Ok"] {
 .programacao-single-header h1 {
     color: #e6225b;
     font-style: normal;
+    margin-top: 80px;
 }
 
 .programacao-single-header h1 {
@@ -635,4 +636,33 @@ input[value="Ok"] {
     font-size: 14px;
     color: #fff !important;
     margin-top: 20px;
+}
+
+.counters .post-views,
+.counters .mashsb-container {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    padding: 0em;
+    height: 1em;
+}
+
+.counters .post-views .post-views-count,
+.counters .mashsb-box div {
+    font-size: 1em!important;
+    line-height: 1em!important;
+    font-weight: bold!important;
+    color: rgb(182, 173, 165);
+    float: left;
+}
+
+.counters .mashsb-box div {
+    margin: 0;
+}
+
+.counters .mashsb-sharetext {
+    display: none;
+}
+
+.counters .fb_iframe_widget span {
+    vertical-align: top!important;
 }
