@@ -463,39 +463,80 @@ input[value="Ok"] {
     margin-top: 75px;
 }
 
+.programacao-single-left h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: normal!important;
+    font-style: italic;
+    color: rgb(182, 173, 165);
+    margin-top: 1em;
+    margin-bottom: -1em!important;
+}
+
+.programacao-single-left .wpcf7 form p {
+    float: left;
+}
+
+.programacao-single-left .wpcf7 form p:first-of-type {
+    width: 90%;
+}
+.programacao-single-left .wpcf7 form textarea {
+    width: 100%;
+    height: 2em;
+}
+
+.programacao-single-left .wpcf7 form input[type='submit'] {
+    width: 100%;
+    padding: 0;
+    height: 8em;
+    background: url(./layout/images/send-olabi.png) no-repeat center center;
+    color: transparent;
+    border: none;
+
+}
+
+.programacao-single-left .wpcf7 form p:last-of-type {
+    width: 10%;
+}
+
+.fb-comments {
+    width: 100%!important;
+}
+
 .programacao-single-middle {
     text-align: center;
     font-size: 1.5em;
+    line-height: 0.75em;
     text-transform: uppercase;
     font-style: italic;
 }
 
 .programacao-single-middle .button {
     background-color: #e6225b;
+    margin-bottom: 1em;
+    color: #fff;
 }
 
 .programacao-single-middle em {
     background-color: #004960;
+    margin-top: 20px;
 }
 
 .programacao-single-middle .button,
 .programacao-single-middle em {
     display: block;
-    padding: 1em 0px;
-    color: #fff;
-    width: 80%;
+    padding: 1em 5%;
+    width: 90%;
     font-style: normal;
-    margin: 0.25em auto;
 }
 
 .programacao-single-right {
-    background-color: rgb(151, 145, 139);
+    background-color: rgb(182, 173, 165);
     color: #fff;
-    padding: 0px 1em;
+    margin-bottom: 35px;
 }
 
-.programacao-single-right .logo {
-    margin: 0 -1em;
+.programacao-single-right .logo img {
     width: 100%;
     height: auto;
 }
@@ -507,6 +548,11 @@ input[value="Ok"] {
 
 .programacao-single-right a.social-icon {
     color: #fff;
+    float: none;
+    display: inline-block;
+}
+.programacao-single-right-description {
+    padding: 0 1em;
 }
 
 .portfolio-grid .portfolio-item-description {
@@ -530,6 +576,10 @@ input[value="Ok"] {
 
 .text-highlight {
     color: #9eabaa;
+}
+
+.testimonial-slider {
+    margin-bottom: 50px;
 }
 
 .testimonial {
