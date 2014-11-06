@@ -471,7 +471,6 @@ input[value="Ok"] {
     font-style: italic;
     color: rgb(182, 173, 165);
     margin-top: 1em;
-    margin-bottom: -1em!important;
 }
 
 .programacao-single-left .wpcf7 form p {
