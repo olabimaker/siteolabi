@@ -646,6 +646,7 @@ input[value="Ok"] {
     height: 1em;
 }
 
+.counters,
 .counters .post-views .post-views-count,
 .counters .mashsb-box div {
     font-size: 1em!important;
@@ -653,6 +654,10 @@ input[value="Ok"] {
     font-weight: bold!important;
     color: rgb(182, 173, 165);
     float: left;
+}
+
+.counters .dashicons {
+    font-size: 1.5em!important;
 }
 
 .counters .mashsb-box div {
@@ -665,4 +670,29 @@ input[value="Ok"] {
 
 .counters .fb_iframe_widget span {
     vertical-align: top!important;
+}
+
+.crp_related ul {
+    margin: 0;
+    list-style: none;
+}
+
+.crp_related ul li {
+    width: 32%;
+    margin-right: 2%;
+    float: left;
+}
+
+.crp_related ul li:last-of-type {
+    margin-right: 0;
+}
+
+.crp_related ul li img {
+    width: 100%;
+    height: auto;
+}
+
+.crp_related ul li .crp_title {
+    font-size: 2em;
+    line-height: 1.5em;
 }
