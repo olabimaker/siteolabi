@@ -48,7 +48,7 @@ h3 {
 }
 
 #logo {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 #header .sf-menu {
@@ -120,7 +120,9 @@ h3 {
 
 #footer-bottom {
     background-color: #004960 !important;
-    padding-bottom: 0px;
+    height: 53px;
+    overflow: hidden;
+    padding: 25px 0 0 0;
 }
 
 #footer-bottom-widget-area-2 div {
