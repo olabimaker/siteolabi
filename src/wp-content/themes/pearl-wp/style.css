@@ -451,10 +451,18 @@ input[value="Ok"] {
     margin-bottom: 0.5em;
 }
 
+.headline {
+    margin-bottom: 25px;
+}
+
+.headline h1,
 .programacao-single-header h1 {
     color: #e6225b;
     font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
     margin-top: 80px;
+    text-transform: none;
 }
 
 .programacao-single-header h1 {
@@ -586,18 +594,20 @@ input[value="Ok"] {
 
 .testimonial {
     border-right: 1px solid #aeaeae;
+    height: 155px;
 }
 
 .testimonial blockquote {
     padding-top: 0px;
     margin-right: 10px;
     float: left;
-    width: 60%;
+    width: 55%;
 }
 
 .testimonial blockquote h3 {
     font-size: 18px;
     color: #b6ada5 !important;
+    line-height: 1.2em;
 }
 
 .testimonial-author img {
@@ -627,18 +637,31 @@ input[value="Ok"] {
     width: 40%;
     float: left;
     height: 100%;
+    text-align: center;
 }
 
 .testimonial-author .description a.social-icon {
     color: #fff;
+    display: inline-block;
+    float: none!important;
 }
 
 .testimonial-author .description h3 {
     font-size: 14px;
     color: #fff !important;
-    margin-top: 20px;
+    margin-top: 40px;
+    line-height: 1em!important;
 }
 
+.testimonial-slider .bx-controls .bx-pager {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.testimonial-slider .bx-controls .bx-pager .bx-pager-item a{
+    background: rgb(182, 173, 165)!important;
+}
 .counters .post-views,
 .counters .mashsb-container {
     display: inline-block;
@@ -696,4 +719,31 @@ input[value="Ok"] {
 .crp_related ul li .crp_title {
     font-size: 2em;
     line-height: 1.5em;
+}
+
+.projeto-main-left .ewf-wrapper {
+    margin-right: 50px;
+}
+
+.projeto-main-right ul {
+    margin-left: 65px;
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.projeto-main-right li {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 50px;
+    text-indent: -32px;
+}
+
+.projeto-main-right li:before {
+    font-size: 48px;
+    content: "• ";
+    color: #e6225b;
+    margin-right: 12px;
+    float: left;
+    width: 20px;
 }
