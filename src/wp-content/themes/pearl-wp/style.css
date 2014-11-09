@@ -93,6 +93,10 @@ h3 {
     font-size: 14px;
 }
 
+#content {
+    padding-bottom: 20px;
+}
+
 #footer h4 {
     font-size: 22px;
     width: 70%;
@@ -567,7 +571,7 @@ input[value="Ok"] {
 
 .portfolio-grid .portfolio-item-description {
     background-color: #004a61 !important;
-    opacity: .7;
+    opacity: 1;
     position: absolute;
     top: 65%;
     bottom: 0;
