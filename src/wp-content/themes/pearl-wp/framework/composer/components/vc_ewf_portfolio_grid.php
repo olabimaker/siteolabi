@@ -3,7 +3,7 @@
 	
 	#	Register image size for project
 	#
-	add_image_size( 'ewf-portfolio-grid', 273, 552, true);
+	add_image_size( 'ewf-portfolio-grid', 312, 568, true);
 	
 	
 	#	Register shortcode for Visual Composer component
