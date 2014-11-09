@@ -146,7 +146,7 @@
                         </div><!-- end .portfolio-item-preview -->
                         
                         <div class="portfolio-item-description">
-                            <p><a href="' . get_the_permalink() . '">'.get_the_title().'</a></p>
+                            <p class="portfolio-title"><a href="' . get_the_permalink() . '">'.get_the_title().'</a></p>
                             <p class="text-highlight">'.get_the_excerpt().'</p>
                         </div><!-- end .portfolio-item-description -->
                         

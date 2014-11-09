@@ -569,6 +569,10 @@ input[value="Ok"] {
     padding: 0 1em;
 }
 
+.portfolio-item {
+    overflow: hidden;
+}
+
 .portfolio-grid .portfolio-item-description {
     background-color: #004a61 !important;
     opacity: 1;
@@ -590,6 +594,7 @@ input[value="Ok"] {
 
 .text-highlight {
     color: #9eabaa;
+    margin-top: 50px;
 }
 
 .testimonial-slider {
