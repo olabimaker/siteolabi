@@ -432,6 +432,12 @@
 
     $('.portfolio-item-description').each(function(index, element){
         $(element).css('top', (95 - ( $(element).find('.portfolio-title').height() / $(element).parent('.portfolio-item:first').height() * 100)).toString() + '%' );
+
+        $(element).mouseenter(function(){
+            $(this).css('top', (80 - (($(this).find('.text-highlight').height() + $(element).find('.portfolio-title').height()) / $(this).parent('.portfolio-item:first').height() * 100)).toString() + '%' );
+        }).mouseleave(function(){
+            $(this).css('top', (95 - ( $(this).find('.portfolio-title').height() / $(this).parent('.portfolio-item:first').height() * 100)).toString() + '%' );
+        });
     });
 
 
