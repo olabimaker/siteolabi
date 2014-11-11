@@ -307,6 +307,16 @@ input[value="Ok"] {
     font-weight: normal!important;
 }
 
+.programacao-sidebar h2.wpb_heading {
+    color: #004960;
+    margin-top: 0px;
+}
+
+.programacao-sidebar .no-events {
+    font-size: 1em;
+    font-style: normal;
+}
+
 .programacao-header {
     background-color: #004960;
     padding: 30px 30px 0px;
@@ -330,10 +340,11 @@ input[value="Ok"] {
 
 .programacao-header .em-events-search input {
     height: 20px;
-    width: 70%!important;
+    width: 75%!important;
     background-color: #fff;
     padding: 4%!important;
     margin-bottom: -35px;
+    margin-left: 25px;
     font-size: 21px!important;
 }
 .programacao-header .em-events-search input::-webkit-input-placeholder {
@@ -357,7 +368,7 @@ input[value="Ok"] {
     height: 60px;
     width: 15%;
     top: 0px!important;
-    right: 12px;
+    right: -25px!important;
     background: url(./layout/images/search.png) no-repeat left top!important;
     background-color: transparent!important;
     background-size: contain!important;
@@ -393,7 +404,7 @@ input[value="Ok"] {
 
 .programacao-middle {
     background-color: #99b6bf;
-    margin-bottom: -50px;
+    margin-bottom: -20px;
 }
 
 .programacao-main {
@@ -402,6 +413,7 @@ input[value="Ok"] {
 .programacao-main .css-events-list h1.no-events {
     font-size: 2em;
     margin-top: 80px;
+    margin-left: 50px;
     color: #e6225b;
 }
 
