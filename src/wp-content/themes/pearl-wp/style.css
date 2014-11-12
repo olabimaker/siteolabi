@@ -589,7 +589,7 @@ input[value="Ok"] {
     background-color: #004a61 !important;
     opacity: 1;
     position: absolute;
-    top: 65%;
+    top: 100%;
     bottom: 0;
 }
 
