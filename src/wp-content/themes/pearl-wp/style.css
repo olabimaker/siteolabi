@@ -768,3 +768,113 @@ input[value="Ok"] {
     float: left;
     width: 20px;
 }
+
+.calendario table {
+    background-color: #e6225b;
+    border-width: 35px 45px 45px 45px;
+    border-style: solid;
+    border-color: #e6225b;
+    margin-bottom: -35px!important;
+}
+
+.calendario table td {
+    border: 0!important;
+    padding: 16px 10px;
+    color: #000;
+    font-style: italic;
+}
+
+.calendario table td.month_name {
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.calendario table td .em-calnav {
+    font-size: 0.8em;
+    color: #fff;
+}
+
+.calendario table td.eventless-today {
+    background-color: rgb(242, 144, 173);
+    color: #fff;
+}
+
+.calendario table td a {
+    color: #000;
+    text-decoration: none!important;
+}
+
+.calendario table td a:hover {
+    color: #fff;
+}
+
+.calendario table td.eventful a {
+    color: rgb(242, 144, 173)!important;
+}
+
+.calendario .eventos-lista .evento-image {
+    display: none;
+    position: absolute;
+    width: 31.914893617021278%;
+    top: 0;
+    height: 100%;
+    background-size: cover!important;
+    cursor: pointer;
+}
+
+.calendario .eventos-lista .evento-image:first-of-type {
+    display: block;
+}
+
+.calendario .eventos-lista p {
+    display: none;
+}
+
+.calendario .eventos-lista .evento-item {
+    padding: 0.75em 1em 0.75em 51.5%;
+    margin-top: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.calendario .eventos-lista .evento-item.hover {
+    background-color: rgb(242, 144, 173);
+}
+
+.tp-caption.projetos h3 {
+    margin-top: 120px!important;
+    margin-left: 40px!important;
+}
+
+.tp-caption.projetos p {
+    margin-top: 1em!important;
+    margin-left: 40px!important;
+}
+
+.tp-caption.projetos header {
+    margin-top: 20px!important;
+    margin-left: 40px!important;
+    color: #fff;
+    font-style: italic;
+    font-size: 1.5em!important;
+    text-transform: uppercase;
+}
+
+.home-projetos .tparrows {
+    position: absolute;
+    top: 20px;
+    width: 14px;
+    height: 20px;
+}
+
+.home-projetos .tp-leftarrow {
+    left: 180px;
+    background:  url(./layout/images/arrow-left.png) no-repeat;
+}
+
+.home-projetos .tp-rightarrow {
+    left: 210px;
+    background:  url(./layout/images/arrow-right.png) no-repeat;
+}

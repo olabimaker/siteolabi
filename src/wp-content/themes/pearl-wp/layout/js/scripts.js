@@ -497,6 +497,28 @@
     var styledMapType = new google.maps.StyledMapType(styles, {name: 'Styled'});
     map.mapTypes.set('Styled', styledMapType);
 
+
+
+
+/* ==========================================================================
+   Home – lista de eventos
+   ========================================================================== */
+
+	$('.eventos-lista .evento-item').eq(0).addClass('hover');
+	$('.eventos-lista .evento-image').eq(0).show();
+	$('.eventos-lista .evento-item').hover(function() {
+   		$(this).addClass('hover');
+   		$(this).parent().siblings().children('.evento-item').removeClass('hover');
+   		$(this).parent().children('.evento.image').hide();
+   		$(this).parent().children('.evento-image').show();
+   		$(this).parent().siblings().children('.evento-image').hide();
+	})
+
+	$('.evento-container').click(function() {
+		window.location = $(this).data('link');
+	})
+
+
 })(window.jQuery);
 
 // non jQuery scripts below
