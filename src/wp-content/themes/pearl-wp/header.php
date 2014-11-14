@@ -49,7 +49,7 @@
 				?>
                 </div><!-- end .span5 -->
 
-                <div class="ewf-span7" id="header-top-widget-area-2">
+                <div class="ewf-span9" id="header-top-widget-area-2">
 				<?php
 					
 					if (is_active_sidebar('header-right')){
