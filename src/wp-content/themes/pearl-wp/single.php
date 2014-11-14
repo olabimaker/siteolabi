@@ -5,6 +5,8 @@
 	global $ewf_theme_settings;
 	
 	$page_blog = ewf_get_page_relatedID();
+	$page_blog_data = get_post($page_blog);
+	$page_for_posts = get_option('page_for_posts');
 	$page_blog_sidebar = ewf_get_sidebar_id( $ewf_theme_settings['blog']['sidebar'] , $page_blog);
 	$page_layout = ewf_get_sidebar_layout( $ewf_theme_settings['blog']['layout'], $page_blog );
 	
@@ -51,9 +53,11 @@
 			break;
 	
 		case "layout-full": 
+			echo apply_filters('the_content',$page_blog_data->post_content);
+
 			echo '<div class="ewf-row">';
 				echo '<div class="ewf-span12">';
-				
+
 					if ( have_posts() ) while ( have_posts() ) : the_post(); 
 						get_template_part('templates/blog-item-default');
 					endwhile; 

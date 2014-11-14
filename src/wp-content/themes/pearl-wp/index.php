@@ -74,13 +74,13 @@
 			break; 
 	
 		case "layout-full": 
+			if ($page_for_posts == $page_blog){ 
+				echo apply_filters('the_content',$page_blog_data->post_content);
+			}
+					
 			echo '<div class="ewf-row">';
 				echo '<div class="span12">';
 			
-					if ($page_for_posts == $page_blog){ 
-						echo apply_filters('the_content',$page_blog_data->post_content);
-					}
-					
 					echo do_shortcode('[blog '.$ewf_extra_attr.']');
 
 				echo '</div>';

@@ -52,21 +52,17 @@
 		// Post title
 		//
 		echo '<div class="blog-post-title">';
-			echo  '<h2><a href="' . get_permalink() . '">'.get_the_title($post->ID).'</a></h2>' ;
+			echo  '<h3><a href="' . get_permalink() . '">'.get_the_title($post->ID).'</a></h3>' ;
 			 
-			echo '<h3>';
-				echo __('by', EWF_SETUP_THEME_DOMAIN);
-				echo ' <a href="#">'.get_the_author().'</a>';
-			echo '</h3>';
-
 			echo  '<p>';
-				echo '<i class="ifc-date_to"> </i>'.get_the_time('m d, Y').' | ';
-								
-				if ($ewf_post_categories){
-					echo '<i class="ifc-ball_point_pen"></i> '.__('Posted in', EWF_SETUP_THEME_DOMAIN).' ';
-					echo  $ewf_post_categories
+				echo get_the_time('d M Y').' | ';
+				echo __('por', EWF_SETUP_THEME_DOMAIN);
+				echo ' <a href="#">'.get_the_author().'</a> ';
+				if ($ewf_post_tags){
+					echo ' | ';
+					echo the_tags( __('Tags', EWF_SETUP_THEME_DOMAIN).': ', ', ');
+
                     //    .' | '
-                    ;
 				}
 			
 				//echo '<i class="ifc-quote"></i> <a href="'.get_permalink().'#comments"> '.get_comments_number().' '.__('comments', EWF_SETUP_THEME_DOMAIN).'</a>';
@@ -106,7 +102,7 @@
 			the_content();
 
 			if ($ewf_post_tags){
-				echo '<div class="tags">'.the_tags( '<strong>'.__('Tags', EWF_SETUP_THEME_DOMAIN).'</strong>: ', ', ').'</div>';
+				echo the_tags( '<div class="tags"><strong>'.__('Tags', EWF_SETUP_THEME_DOMAIN).'</strong>: ', ', ').'</div>';
 			}
 			
 		}

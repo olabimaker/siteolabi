@@ -342,15 +342,26 @@ input[value="Ok"] {
     margin: 0px;
 }
 
+.blog-header .widget_search input[type=text],
 .programacao-header .em-events-search input {
-    height: 20px;
-    width: 75%!important;
     background-color: #fff;
     padding: 4%!important;
     margin-bottom: -35px;
-    margin-left: 25px;
+    margin-right: 0px!important;
     font-size: 21px!important;
+    line-height: 1em;
 }
+
+.programacao-header .em-events-search input {
+    margin-left: 25px;
+    width: 75%!important;
+}
+
+.blog-header .widget_search input[type=text] {
+    width: 85%!important;
+}
+
+
 .programacao-header .em-events-search input::-webkit-input-placeholder {
     line-height: 1em!important;
     font-size: 21px!important;
@@ -368,11 +379,10 @@ input[value="Ok"] {
     font-size: 21px!important;
 }
 
+.blog-header .widget_search input[type=submit],
 .programacao-header .em-events-search .em-search-submit {
     height: 60px;
     width: 15%;
-    top: 0px!important;
-    right: -25px!important;
     background: url(./layout/images/search.png) no-repeat left top!important;
     background-color: transparent!important;
     background-size: contain!important;
@@ -385,10 +395,22 @@ input[value="Ok"] {
     text-shadow: 0px!important;
 }
 
+.programacao-header .em-events-search .em-search-submit {
+    top: 0px!important;
+    right: -25px!important;
+}
+
+.blog-header .widget_search input[type=submit] {
+    float: left;
+    position: relative;
+}
+
 .programacao-header .em-events-search .em-search-submit img {
     display: none;
 }
 
+.blog-header .widget_categories ul,
+.blog-header .widget_categories .cat-item,
 .programacao-header .em-categories-list,
 .programacao-header .em-categories-list li,
 .programacao-header p {
@@ -396,9 +418,10 @@ input[value="Ok"] {
     line-height: 60px;
 }
 
+.blog-header .widget_categories .cat-item,
 .programacao-header .em-categories-list li {
     margin-left: 1em;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 300;
 }
 
@@ -897,4 +920,74 @@ input[value="Ok"] {
 
 .projetos-quadro h3 {
     font-size: 1.5em;
+}
+
+.blog-header {
+    background-color: #004a61;
+}
+
+.blog-header .widget_search {
+    width: 33%;
+    float: left;
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width: 767px) {
+    .blog-header .widget_search,
+    .blog-header .widget_categories {
+        width: 100%;
+    }
+
+    .blog-header .widget_search input {
+        margin-top: 25px;
+    }
+
+    .blog-header .widget_search input[type=submit],
+    .programacao-header .em-events-search .em-search-submit {
+        height: 86px;
+    }
+}
+
+.blog-header .widget_categories {
+    width: 66%;
+    float: left;
+}
+
+.blog-header .widget_categories h3 {
+    font-size: 1em;
+    color: #fff!important;
+    margin-left: 50px;
+    display: inline;
+    text-transform: none;
+    font-weight: normal;
+}
+
+.blog-header .widget_categories li {
+    border-width: 0;
+}
+
+.blog-header .widget_categories li a:before {
+    content: '';
+}
+.blog-header .widget_categories li a {
+    color: #e6225b;
+    padding: 0;
+}
+
+.blog-post h3 {
+    border-width: 0px!important;
+    margin-top: 25px;
+}
+
+.blog-post h3 a {
+    font-weight: normal;
+}
+
+.blog-post-title p a {
+    color: #e6225b!important;
+    font-weight: normal;
+}
+
+.blog-post .tags {
+    margin-bottom: 50px;
 }
