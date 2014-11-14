@@ -504,7 +504,7 @@
    Home – lista de eventos
    ========================================================================== */
 
-	$('.eventos-lista .evento-item').eq(0).addClass('hover');
+	$('.eventos-lista .evento-container').eq(0).children('.evento-item').addClass('hover');
 	$('.eventos-lista .evento-image').eq(0).show();
 	$('.eventos-lista .evento-item').hover(function() {
    		$(this).addClass('hover');
