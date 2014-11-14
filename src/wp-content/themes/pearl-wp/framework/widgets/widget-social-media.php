@@ -26,6 +26,7 @@
 			$profile_tumblr 	=  $instance['profile_tumblr'];
 			$profile_instagram 	=  $instance['profile_instagram'];
 			$profile_rss 		=  $instance['profile_rss'];
+            $profile_flickr 	=  $instance['profile_flickr'];
 
 
 			echo $before_widget;
@@ -71,6 +72,10 @@
 				if ($profile_rss){
 					echo '<a class="rss-icon social-icon" href="'.$profile_rss.'"><i class="fa fa-rss"></i></a>';
 				}
+
+                if ($profile_flickr){
+                    echo '<a class="flickr-icon social-icon" href="'.$profile_flickr.'"><i class="fa fa-flickr"></i></a>';
+                }
 			echo '</div>';
 			
 
@@ -92,6 +97,7 @@
 			$instance['profile_tumblr'] 	= $new_instance['profile_tumblr'] ;
 			$instance['profile_instagram'] 	= $new_instance['profile_instagram'] ;
 			$instance['profile_rss'] 	= $new_instance['profile_rss'] ;
+            $instance['profile_flickr'] 	= $new_instance['profile_flickr'] ;
 
 
 			return $instance;
@@ -109,7 +115,8 @@
 				'profile_dribbble' => null,
 				'profile_tumblr' => null,
 				'profile_instagram' => null,
-				'profile_rss' => null
+				'profile_rss' => null,
+                'profile_flickr' => null
 			);
 			$instance = wp_parse_args( (array) $instance, $defaults ); ?>
 			
@@ -163,6 +170,11 @@
 					<label for="<?php echo $this->get_field_id( 'profile_rss' ); ?>"><?php _e('RSS Feed URL:', EWF_SETUP_THEME_DOMAIN); ?></label>
 					<input id="<?php echo $this->get_field_id( 'profile_rss' ); ?>" name="<?php echo $this->get_field_name( 'profile_rss' ); ?>" value="<?php echo $instance['profile_rss']; ?>" style="width:100%;" />
 				</p>
+
+                <p>
+                    <label for="<?php echo $this->get_field_id( 'profile_flickr' ); ?>"><?php _e('Flickr profile URL:', EWF_SETUP_THEME_DOMAIN); ?></label>
+                    <input id="<?php echo $this->get_field_id( 'profile_flickr' ); ?>" name="<?php echo $this->get_field_name( 'profile_flickr' ); ?>" value="<?php echo $instance['profile_flickr']; ?>" style="width:100%;" />
+                </p>
 			</div>
 			
 		<?php
