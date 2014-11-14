@@ -129,6 +129,10 @@ h3 {
     padding: 25px 0 0 0;
 }
 
+#footer-bottom-widget-area-1 {
+    font-size: 0.8em;
+}
+
 #footer-bottom-widget-area-2 div {
     float: right;
 }
