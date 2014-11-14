@@ -583,8 +583,13 @@ input[value="Ok"] {
     overflow: hidden;
 }
 
+.portfolio-grid .portfolio-item-preview {
+    height: 568px;
+}
+
 .portfolio-grid .portfolio-item-description {
     background-color: #004a61 !important;
+    background-color: rgba(0, 73, 96, .5) !important;
     opacity: 1;
     position: absolute;
     top: 100%;
@@ -754,17 +759,16 @@ input[value="Ok"] {
 .projeto-main-right li {
     font-size: 24px;
     line-height: 30px;
-    margin-bottom: 50px;
-    text-indent: -32px;
+    margin-bottom: 25px;
+    text-indent: -24px;
 }
 
 .projeto-main-right li:before {
-    font-size: 48px;
+    font-size: 36px;
     content: "• ";
     color: #e6225b;
-    margin-right: 12px;
     float: left;
-    width: 20px;
+    width: 24px;
 }
 
 .calendario table {
@@ -876,4 +880,17 @@ input[value="Ok"] {
 .home-projetos .tp-rightarrow {
     left: 210px;
     background:  url(./layout/images/arrow-right.png) no-repeat;
+}
+
+.projetos-quadro .ewf-span4 {
+    width: 30%;
+    margin-left: 5%;
+}
+
+.projetos-quadro .ewf-span4:first-child {
+    margin-left: 0;
+}
+
+.projetos-quadro h3 {
+    font-size: 1.5em;
 }
