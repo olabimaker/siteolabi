@@ -413,14 +413,12 @@ input[value="Ok"] {
 .programacao-main .css-events-list h1.no-events {
     font-size: 2em;
     margin-top: 80px;
-    margin-left: 50px;
     color: #e6225b;
 }
 
 .programacao-main article {
     clear: both;
     margin-top: 80px;
-    margin-left: 50px;
     overflow: hidden;
     zoom: 1;
     line-height: 1.2em;
