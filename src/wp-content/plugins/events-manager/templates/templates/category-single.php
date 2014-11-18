@@ -6,7 +6,19 @@
  * 
  * $args - the args passed onto EM_Events::output() 
  */
+
+$page_for_category = get_option('dbem_categories_page');
+$category_page = get_post($page_for_category);
+$page_base = $category_page->post_content;
+
 global $EM_Category;
-/* @var $EM_Category EM_Category */
-echo $EM_Category->output_single();
+$page_content = $EM_Category->output_single();
+
+if(preg_match('/CONTENTS/', $page_base) ){
+	$final_content = str_replace('CONTENTS', $page_content, $page_base);
+	echo $final_content;
+}
+
+
+
 ?>
