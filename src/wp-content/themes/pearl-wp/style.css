@@ -828,7 +828,8 @@ input[value="Ok"] {
     color: #fff;
     font-weight: normal;
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    text-align: left;
 }
 
 .calendario table td .em-calnav {
@@ -854,6 +855,21 @@ input[value="Ok"] {
     color: rgb(242, 144, 173)!important;
 }
 
+.calendario table td .em-calnav {
+    width: 26px;
+    position: absolute;
+    width: 26px;
+}
+.calendario table td .em-calnav-prev {
+    left: 180px;
+}
+.calendario table td .em-calnav-next {
+    left: 210px;
+}
+.calendario .eventos-lista h1 {
+    margin-top: 1.5em;
+}
+
 .calendario .eventos-lista .evento-image {
     display: none;
     position: absolute;
@@ -871,6 +887,18 @@ input[value="Ok"] {
 
 .calendario .eventos-lista p {
     display: none;
+}
+.calendario .eventos-lista p:last-child {
+    display: block;
+}
+.calendario .eventos-lista .button {
+    background-color: #e6225b;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    display: inline-block;
 }
 
 .calendario .eventos-lista .evento-item {
@@ -903,20 +931,13 @@ input[value="Ok"] {
     text-transform: uppercase;
 }
 
-.home-projetos .tparrows {
-    position: absolute;
-    top: 20px;
-    width: 14px;
-    height: 20px;
-}
-
-.home-projetos .tp-leftarrow {
-    left: 180px;
+.custom.tp-leftarrow,
+.calendario table td .em-calnav-prev {
     background:  url(./layout/images/arrow-left.png) no-repeat;
 }
 
-.home-projetos .tp-rightarrow {
-    left: 210px;
+.custom.tp-rightarrow,
+.calendario table td .em-calnav-next {
     background:  url(./layout/images/arrow-right.png) no-repeat;
 }
 
@@ -1002,3 +1023,4 @@ input[value="Ok"] {
 .blog-post .tags {
     margin-bottom: 50px;
 }
+
