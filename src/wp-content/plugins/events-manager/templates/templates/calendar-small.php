@@ -34,15 +34,13 @@
 				if(!empty($cell_data['type'])){
 					$class .= "-".$cell_data['type']; 
 				}
-				?>
-				<td class="<?php echo $class; ?>">
+				?><td class="<?php echo $class; ?>">
 					<?php if( !empty($cell_data['events']) && count($cell_data['events']) > 0 ): ?>
 					<a href="<?php echo esc_url($cell_data['link']); ?>" title="<?php echo esc_attr($cell_data['link_title']); ?>"><?php echo date('j',$cell_data['date']); ?></a>
 					<?php else:?>
 					<?php echo date('j',$cell_data['date']); ?>
 					<?php endif; ?>
-				</td>
-				<?php
+				</td><?php
 				//create a new row once we reach the end of a table collumn
 				$col_count= ($col_count == $col_max ) ? 1 : $col_count+1;
 				echo ($col_count == 1 && $count < $cal_count) ? '</tr><tr>':'';

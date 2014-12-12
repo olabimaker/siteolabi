@@ -290,9 +290,15 @@ input[value="Ok"] {
     }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1399px) and (min-width: 980px) {
     .header-full h3 {
         width: 940px;
+    }
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+    .header-full h3 {
+        width: 705px;
     }
 }
 
@@ -809,21 +815,40 @@ input[value="Ok"] {
     width: 24px;
 }
 
-.calendario table {
+.calendario .em-calendar-wrapper {
     background-color: #e6225b;
-    border-width: 35px 45px 45px 45px;
-    border-style: solid;
-    border-color: #e6225b;
+    padding: 3em 1em 2em 1em;
     margin-bottom: -35px!important;
+}
+
+@media (max-width: 480px) {
+    .calendario table thead tr {
+        position: relative!important;
+        top: inherit;
+        left: inherit;
+        width: 100%;
+    }
+    .calendario table thead tr .month_name {
+        width: 100%;
+    }
+    .calendario table td {
+        display: inline-block;
+        overflow: hidden;
+    }
 }
 
 .calendario table td {
     border: 0!important;
-    padding: 16px 10px;
+    width: 14%;
+    height: 3em;
     color: #000;
     font-style: italic;
+    padding: 0;
 }
-
+.calendario table tr {
+    border: 0!important;
+    position: relative;
+}
 .calendario table td.month_name {
     color: #fff;
     font-weight: normal;
