@@ -3,7 +3,7 @@
 	
 	#	Register image size for project
 	#
-	add_image_size( 'ewf-portfolio-grid', 312, 568, true);
+	add_image_size( 'ewf-portfolio-grid', 300, 400, true);
 	
 	
 	#	Register shortcode for Visual Composer component
@@ -140,8 +140,9 @@
 			  echo '<div class="ewf-span'.$_ewf_span.'">
 					<div class="portfolio-item">
                         <div class="portfolio-item-preview">
-                            
-                            <img src="'.$image_preview_small[0].'" alt="">
+                            <a href="' . get_the_permalink() . '">
+                                <img src="'.$image_preview_small[0].'" alt="">
+                            </a>
                                                         
                         </div><!-- end .portfolio-item-preview -->
                         

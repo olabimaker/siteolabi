@@ -632,10 +632,11 @@ input[value="Ok"] {
 
 .portfolio-item {
     overflow: hidden;
+    width: 300px;
 }
 
 .portfolio-grid .portfolio-item-preview {
-    height: 568px;
+    height: 400px;
 }
 
 .portfolio-grid .portfolio-item-description {
