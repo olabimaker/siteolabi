@@ -794,5 +794,8 @@
 		endswitch;
 	}
 
-
+	function blog_post_fbcomments() {
+		return '<div class="counter-facebook"><fb:comments-count href='.get_permalink().'></fb:comments-count></div>';
+	}
+	add_shortcode("fbcommentscounter","blog_post_fbcomments");
 ?>

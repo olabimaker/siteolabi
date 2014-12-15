@@ -52,7 +52,7 @@
 		// Post title
 		//
 		echo '<div class="blog-post-title">';
-			echo  '<h3><a href="' . get_permalink() . '">'.get_the_title($post->ID).'</a></h3>' ;
+			echo '<h3><a href="' . get_permalink() . '">'.get_the_title($post->ID).'</a></h3>' ;
 			 
 			echo  '<p>';
 				echo get_the_time('d M Y').' | ';
@@ -68,6 +68,12 @@
 				//echo '<i class="ifc-quote"></i> <a href="'.get_permalink().'#comments"> '.get_comments_number().' '.__('comments', EWF_SETUP_THEME_DOMAIN).'</a>';
 			
 			echo  '</p>';
+
+			echo '<div class="counters">';
+				echo do_shortcode('[post-views] [mashshare]');
+				echo '<div class="counter-facebook"><fb:comments-count href='.get_permalink($post->ID).'></fb:comments-count></div>';
+			echo '</div>';
+
 		echo '</div>';
 
 		
@@ -100,9 +106,11 @@
 		if ($single_post){
 			
 			the_content();
+			comments_template( '', true );
+			echo do_shortcode('[crp]');
 
 			if ($ewf_post_tags){
-				echo the_tags( '<div class="tags"><strong>'.__('Tags', EWF_SETUP_THEME_DOMAIN).'</strong>: ', ', ').'</div>';
+				// echo the_tags( '<div class="tags"><strong>'.__('Tags', EWF_SETUP_THEME_DOMAIN).'</strong>: ', ', ').'</div>';
 			}
 			
 		}
@@ -119,8 +127,6 @@
 	// echo '<div class="divider single-line"></div>';
 	
 	
-	if ($single_post){
-		comments_template( '', true );
-	}
+
 	
 ?>

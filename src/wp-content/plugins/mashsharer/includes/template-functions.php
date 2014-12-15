@@ -425,23 +425,27 @@ function getSharedcount($url) {
                     if (isset($mashsb_options['mashsharer_round'])) {
                         $totalshares = roundshares($totalshares);
                     }  
-                 $sharecount = '<div class="mashsb-count"><div class="counts" id="mashsbcount">' . $totalshares . '</div><span class="mashsb-sharetext">' . __('SHARES', 'mashsb') . '</span></div>';    
+                 // $sharecount = '<div class="mashsb-count"><div class="counts" id="mashsbcount">' . $totalshares . '</div><span class="mashsb-sharetext">' . __('SHARES', 'mashsb') . '</span></div>';    
+                 $sharecount = $totalshares;    
              } else {
                  $sharecount = '';
              }
                      
-                $return = '
-                    <aside class="mashsb-container">
-                    <div class="mashsb-box">'
-                        . apply_filters('mashsb_sharecount_filter', $sharecount) .
-                    '<div class="mashsb-buttons">' 
-                        . getNetworks() . 
-                        //'<a class="mashicon-facebook" href="javascript:void(0);"><span class="icon"></span><span class="text">' . __('Share&nbsp;on&nbsp;Facebook', 'mashsb') . '</span></a><a class="mashicon-twitter" href="javascript:void(0)"><span class="icon"></span><span class="text">' . __('Tweet&nbsp;on&nbsp;Twitter', 'mashsb') . '</span></a><a class="mashicon-google" href="javascript:void(0)"><span class="icon"></span><span class="text">' . __('Google+', 'mashsb') . '</span></a>' . mashsb_subscribe_button() .                     
-                    '</div></div>
-                    <div style="clear:both;"></div>'
-                    . mashsb_subscribe_content() .
-                    '</aside>
-                        <!-- Share buttons made by mashshare.net - Version: ' . MASHSB_VERSION . '-->';
+                // $return = '
+                //     <aside class="mashsb-container">
+                //     <div class="mashsb-box">'
+                //         . apply_filters('mashsb_sharecount_filter', $sharecount) .
+                //     '<div class="mashsb-buttons">' 
+                //         . getNetworks() . 
+                //         //'<a class="mashicon-facebook" href="javascript:void(0);"><span class="icon"></span><span class="text">' . __('Share&nbsp;on&nbsp;Facebook', 'mashsb') . '</span></a><a class="mashicon-twitter" href="javascript:void(0)"><span class="icon"></span><span class="text">' . __('Tweet&nbsp;on&nbsp;Twitter', 'mashsb') . '</span></a><a class="mashicon-google" href="javascript:void(0)"><span class="icon"></span><span class="text">' . __('Google+', 'mashsb') . '</span></a>' . mashsb_subscribe_button() .                     
+                //     '</div></div>
+                //     <div style="clear:both;"></div>'
+                //     . mashsb_subscribe_content() .
+                //     '</aside>
+                //         <!-- Share buttons made by mashshare.net - Version: ' . MASHSB_VERSION . '-->';
+
+            $return = '<div class="mashsb-box">' . $sharecount . '</div>';
+
             mashdebug()->timer('timer', true);
             return apply_filters( 'mashsb_output_buttons', $return );
     }
@@ -480,7 +484,8 @@ function getSharedcount($url) {
                         if ($roundenabled) {
                             $totalshares = roundshares($totalshares);
                         }
-                    $sharecount = '<div class="mashsb-count" style="float:' . $align . ';"><div class="counts">' . $totalshares . '</div><span class="mashsb-sharetext">' . __('SHARES', 'mashsb') . '</span></div>';    
+                    // $sharecount = '<div class="mashsb-count" style="float:' . $align . ';"><div class="counts">' . $totalshares . '</div><span class="mashsb-sharetext">' . __('SHARES', 'mashsb') . '</span></div>';    
+                    $sharecount = $totalshares;    
                     /*If shortcode [mashshare shares="true" onlyshares="true"]
                      * return shares and exit;
                      */
@@ -493,17 +498,19 @@ function getSharedcount($url) {
              }
              
                         
-                $return = '
-                    <aside class="mashsb-container">
-                    <div class="mashsb-box">'
-                        . $sharecount .
-                    '<div class="mashsb-buttons">' 
-                        . getNetworks() . 
-                    '</div></div>
-                    <div style="clear:both;"></div>'
-                    . mashsb_subscribe_content() .
-                    '</aside>
-                        <!-- Share buttons made by mashshare.net - Version: ' . MASHSB_VERSION . '-->';
+                // $return = '
+                //     <aside class="mashsb-container">
+                //     <div class="mashsb-box">'
+                //         . $sharecount .
+                //     '<div class="mashsb-buttons">' 
+                //         . getNetworks() . 
+                //     '</div></div>
+                //     <div style="clear:both;"></div>'
+                //     . mashsb_subscribe_content() .
+                //     '</aside>
+                //         <!-- Share buttons made by mashshare.net - Version: ' . MASHSB_VERSION . '-->';
+
+                $return = '<div class="mashsb-box">' . $sharecount . '</div>';
           
             return apply_filters( 'mashsb_output_buttons', $return );  
           

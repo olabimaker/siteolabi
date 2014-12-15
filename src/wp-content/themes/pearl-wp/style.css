@@ -738,40 +738,41 @@ input[value="Ok"] {
 .testimonial-slider .bx-controls .bx-pager .bx-pager-item a{
     background: rgb(182, 173, 165)!important;
 }
-.counters .post-views,
-.counters .mashsb-container {
-    display: inline-block;
-    margin: 0 20px 0 0;
-    padding: 0em;
-    height: 1em;
+
+.counters {
+    margin-bottom: 35px;
 }
 
-.counters,
-.counters .post-views .post-views-count,
-.counters .mashsb-box div {
+.counters div {
     font-size: 1em!important;
     line-height: 1em!important;
     font-weight: bold!important;
     color: rgb(182, 173, 165);
-    float: left;
+    margin-right: 20px;
+    display: inline-block;
 }
+.counters div:before {
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 20px/1 'dashicons';
+    vertical-align: top;
+}
+
+.counters .post-views:before { content: "\f177"; }
+.counters .mashsb-box:before { content: "\f237"; }
+.counters .counter-facebook:before { content: "\f101"; }
 
 .counters .dashicons {
     font-size: 1.5em!important;
-}
-
-.counters .mashsb-box div {
-    margin: 0;
-}
-
-.counters .mashsb-sharetext {
-    display: none;
 }
 
 .counters .fb_iframe_widget span {
     vertical-align: top!important;
 }
 
+.crp_related {
+    margin-top: 50px;
+}
 .crp_related ul {
     margin: 0;
     list-style: none;
