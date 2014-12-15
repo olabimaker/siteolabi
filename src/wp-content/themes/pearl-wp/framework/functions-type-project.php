@@ -2,7 +2,7 @@
 
 	#	Change default slugs
 	#
-	define ('EWF_PROJECTS_SLUG'					, 'project'								);
+	define ('EWF_PROJECTS_SLUG'					, 'projetos'								);
 	define ('EWF_PROJECTS_TAX_SERVICES'			, 'service'								);
 
 	
@@ -788,7 +788,7 @@
 			'public' 		=> true,
 			'rewrite' 		=> true, 
 			'menu_position' => 91,
-			'slug'			=> 'project',
+			'slug'			=> 'projetos',
 			'show_ui' 		=> true,
 			'show_in_menu'  => true,
 			'supports' 		=> array('title', 'editor', 'thumbnail', 'excerpt')
