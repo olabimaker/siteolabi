@@ -451,8 +451,15 @@ input[value="Ok"] {
     margin-bottom: -20px;
 }
 
+
 .programacao-main {
     min-height: 500px;
+}
+.programacao-main article h3 {
+    font-size: 1.5em;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #004960;
 }
 .programacao-main .css-events-list h1.no-events {
     font-size: 2em;
