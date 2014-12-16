@@ -86,6 +86,8 @@ define('WPLANG', '');
  */
 define('WP_DEBUG', false);
 
+define('EM_CONDITIONAL_RECURSIONS',3);	
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
