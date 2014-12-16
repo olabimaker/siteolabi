@@ -1058,3 +1058,22 @@ input[value="Ok"] {
     margin-bottom: 50px;
 }
 
+.vc-carousel-control {
+    margin-top: -24px!important;
+    width: 38px!important;
+    height: 47px!important;
+    background-repeat: no-repeat;
+}
+.vc-carousel-control .icon-prev, .vc-carousel-control .icon-next {
+    width: 38px!important;
+    height: 47px!important;
+    margin-top: 0!important;
+    margin-left: 0!important;
+    top: 0!important;
+    left: 0!important;
+}
+.vc-carousel-control .icon-prev:before, .vc-carousel-control .icon-next:before {
+    content: ''!important;
+}
+.vc-carousel-control .icon-prev { background: url(./layout/images/arrow-left-2.png); }
+.vc-carousel-control .icon-next { background: url(./layout/images/arrow-right-2.png); }
