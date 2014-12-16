@@ -16,7 +16,7 @@
 	#
 	$ewf_post_tags = get_the_tags();
 	
-	
+
 	
 	# 	Get post categories
 	#
@@ -46,9 +46,26 @@
 	
 	$single_post = is_single();
 	
+
+	if(!$single_post) {
+		echo  '<div class="blog-post '.$ewf_post_class.' ewf-span4">';
+	} else {
+		echo  '<div class="blog-post '.$ewf_post_class.'">';
+	}
 	
-	echo  '<div class="blog-post '.$ewf_post_class.'">';
-	
+		if (!$single_post) {
+
+			// Post fetured image
+			//			 		
+			echo  '<div class="blog-post-thumb">';
+			if ($ewf_image_id){
+					if ($ewf_image_id){
+						echo  '<img src="'.$ewf_image_url.'" alt="" />';
+					}
+			}
+			echo  '</div> <!-- .blog-post-preview -->';
+		}
+
 		// Post title
 		//
 		echo '<div class="blog-post-title">';
@@ -58,7 +75,7 @@
 				echo get_the_time('d M Y').' | ';
 				echo __('por', EWF_SETUP_THEME_DOMAIN);
 				echo ' <a href="#">'.get_the_author().'</a> ';
-				if ($ewf_post_tags){
+				if ($ewf_post_tags && $single_post){
 					echo ' | ';
 					echo the_tags( __('Tags', EWF_SETUP_THEME_DOMAIN).': ', ', ');
 
@@ -79,30 +96,12 @@
 		
 		//	Post Content
 		//
-		if (!$single_post){
-			global $more;
-			$more = false; 
-			echo  '<p>'.do_shortcode(get_the_content('&nbsp;')).'</p>';   
-			$more = true;
-		}
-
-		
-		// Post fetured image
-		//			 		
-		if ($ewf_image_id){
-			echo  '<div class="blog-post-thumb">';
-				if ($ewf_image_id){
-					echo  '<img src="'.$ewf_image_url.'" alt="" />';
-				}
-			echo  '</div> <!-- .blog-post-preview -->';
-		}
-		
-
-	
-	
-
-		
-
+		// if (!$single_post){
+		// 	global $more;
+		// 	$more = false; 
+		// 	echo  '<p>'.do_shortcode(get_the_content('&nbsp;')).'</p>';   
+		// 	$more = true;
+		// }
 		if ($single_post){
 			
 			the_content();
@@ -115,11 +114,11 @@
 			
 		}
 		
-		if (!$single_post){
-			echo  '<p class="text-right">';
-					echo '<a class="btn" href="' . get_permalink() . '">'.__('See more', EWF_SETUP_THEME_DOMAIN).'</a>';
-			echo '</p>';
-		}
+		// if (!$single_post){
+		// 	echo  '<p class="text-right">';
+		// 			echo '<a class="btn" href="' . get_permalink() . '">'.__('See more', EWF_SETUP_THEME_DOMAIN).'</a>';
+		// 	echo '</p>';
+		// }
 	
 	echo  '</div> <!-- .blog-post -->'; 
 	
