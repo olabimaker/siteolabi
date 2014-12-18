@@ -654,7 +654,7 @@ input[value="Ok"] {
 
 .portfolio-grid .portfolio-item-description {
     background-color: #004a61 !important;
-    background-color: rgba(0, 73, 96, .5) !important;
+    background-color: rgba(0, 73, 96, .9) !important;
     opacity: 1;
     position: absolute;
     top: 100%;
@@ -894,6 +894,10 @@ input[value="Ok"] {
     text-decoration: none!important;
 }
 
+.calendario td.eventful a, table.em-calendar td.eventful-today a {
+    color: #e6225b;
+}
+
 .calendario table td a:hover {
     color: #fff;
 }
@@ -937,6 +941,7 @@ input[value="Ok"] {
 }
 .calendario .eventos-lista p:last-child {
     display: block;
+    float: right;
 }
 .calendario .eventos-lista .button {
     background-color: #e6225b;
@@ -962,11 +967,21 @@ input[value="Ok"] {
 .tp-caption.projetos h3 {
     margin-top: 120px!important;
     margin-left: 40px!important;
+    margin-right: 40px!important;
+}
+.tp-caption.projetos h3 a {
+    color: #e6225b!important;
+    text-decoration: none;
+}
+.tp-caption.projetos h3 a:hover {
+    text-decoration: underline;
 }
 
 .tp-caption.projetos p {
     margin-top: 1em!important;
     margin-left: 40px!important;
+    margin-right: 40px!important;
+    color: white;
 }
 
 .tp-caption.projetos header {
