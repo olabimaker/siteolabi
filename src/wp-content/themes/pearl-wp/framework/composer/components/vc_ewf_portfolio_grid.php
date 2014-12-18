@@ -140,9 +140,18 @@
 			  echo '<div class="ewf-span'.$_ewf_span.'">
 					<div class="portfolio-item">
                         <div class="portfolio-item-preview">
-                            <a href="' . get_the_permalink() . '">
-                                <img src="'.$image_preview_small[0].'" alt="">
-                            </a>
+                            <a href="' . get_the_permalink() . '">';
+			if (class_exists('MultiPostThumbnails') && MultiPostThumbnails::has_post_thumbnail(get_post_type(), 'secondary-image', get_the_ID())) :
+			    MultiPostThumbnails::the_post_thumbnail(
+			        get_post_type(),
+			        'secondary-image',
+			        get_the_ID(),
+			        'ewf-portfolio-grid'
+			    );
+			else :
+              echo                   '<img src="'.$image_preview_small[0].'" alt="">';
+			endif;
+              echo              '</a>
                                                         
                         </div><!-- end .portfolio-item-preview -->
                         
