@@ -29,6 +29,9 @@
 	add_image_size( 'project-preview-medium'	, 440, 450, true						);
 	add_image_size( 'project-preview-large'		, 770, 520, true						);
 
+	#	Register image size for event
+	#
+	add_image_size( 'project-event'				, 1170, 512, true						);
 	
 
 
