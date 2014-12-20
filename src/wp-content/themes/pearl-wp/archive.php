@@ -14,7 +14,7 @@
 		$cat_ID = get_query_var('cat');
 		$categ = get_category($cat_ID,false);
 			
-		$page_title = '<div class="alert info">'.__('Viewing posts categorised under', EWF_SETUP_THEME_DOMAIN).': <strong>'.ucfirst($categ->name).'</strong></div>';
+		$page_title = '<h3 class="archive-title">'.ucfirst($categ->name).'</h3>';
 	}
 
 	
@@ -22,7 +22,7 @@
 	#
 	if ($wp_query->is_tag == 1 && $wp_query->is_archive == 1) {
 		$tag_name = $wp_query->queried_object->name;
-		$page_title = '<div class="alert info">'.__('Showing posts tagged with', EWF_SETUP_THEME_DOMAIN).': <strong>'.$tag_name.'</strong></div>';
+		$page_title = '<h3 class="archive-title">'.$tag_name.'</h3>';
 	}
 	 
 	
@@ -43,12 +43,13 @@
 			$date = date('F Y' ,strtotime($tmp_date));					
 		}
 		
-		$page_title = '<div class="alert info">'.__('Viewing posts from', EWF_SETUP_THEME_DOMAIN).': <strong>'.$date.'</strong></div>';
+		$page_title = '<h3 class="archive-title">'.$date.'</h3>';
 	} 
 
 	
 	
 	$page_blog = ewf_get_page_relatedID();
+	$page_blog_data = get_post($page_blog);
 	$sidebar_id = ewf_get_sidebar_id( $ewf_theme_settings['blog']['sidebar'] , $page_blog);
 	$page_layout = ewf_get_sidebar_layout( $ewf_theme_settings['blog']['layout'], $page_blog );
 
@@ -98,9 +99,10 @@
 			break; 
 	
 		case "layout-full": 
+			echo apply_filters('the_content',$page_blog_data->post_content);
 			echo '<div class="ewf-row">';
 				echo '<div class="ewf-span12">';
-				
+
 					if ($page_title != null){ echo $page_title; }
 					
 					if ( have_posts() ) while ( have_posts() ) : the_post(); 

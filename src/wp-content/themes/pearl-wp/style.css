@@ -309,6 +309,7 @@ input[value="Ok"] {
     .programacao-sidebar {
         position: absolute;
         height: 100%;
+        width: 31.914893617021278%;
     }
     .programacao-main {
         margin-left: 34.0425531915%;
@@ -316,11 +317,12 @@ input[value="Ok"] {
 }
 
 .programacao-sidebar {
-    padding: 80px 25px 20px;
     font-style: italic;
     background-color: #99b6bf;
 }
-
+.programacao-sidebar > .ewf-wrapper {
+    padding: 80px 25px 20px;
+}
 .programacao-sidebar,
 .programacao-sidebar a,
 .programacao-sidebar a:visited {
@@ -468,6 +470,8 @@ input[value="Ok"] {
 .programacao-main {
     min-height: 500px;
 }
+
+h3.archive-title,
 .programacao-main article h3 {
     font-size: 1.5em;
     font-style: italic;
@@ -622,7 +626,6 @@ input[value="Ok"] {
     background-color: rgb(182, 173, 165);
     color: #fff;
     margin-bottom: 35px;
-    border: 5px solid #333;
 }
 
 .programacao-single-right .logo img {
@@ -647,8 +650,10 @@ input[value="Ok"] {
 .programacao-single-right-description {
     width: 70%;
     float: left;
-    padding: 1.5em 0px;
+    padding: 2em 0px;
     margin-bottom: 0px!important;
+    font-size: 0.9em;
+    line-height: 1.3;
 }
 
 .portfolio-item {
@@ -1114,7 +1119,20 @@ input[value="Ok"] {
 .vc-carousel-control .icon-prev { background: url(./layout/images/arrow-left-2.png); }
 .vc-carousel-control .icon-next { background: url(./layout/images/arrow-right-2.png); }
 
+@media (min-width: 768px) {
+    .archive .blog-post,
+    .blog .blog-post {
+        height: 513px;
+    }
+}
+.archive-title {
+    margin-bottom: 50px;
+}
 
+.archive .blog-post:nth-child(3n+2),
+.blog .blog-post:nth-child(3n+1) {
+    margin-left: 0!important;
+}
 @media (min-width: 768px) and (max-width: 979px) {
     .blog-post-thumb { height: 150px; }
 } 
